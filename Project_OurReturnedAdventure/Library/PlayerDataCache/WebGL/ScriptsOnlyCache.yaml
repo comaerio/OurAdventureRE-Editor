@@ -21,9 +21,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
-    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceManagerSettingsEditor
-    Unity.AdaptivePerformance.Simulator.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -98,25 +95,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 614}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 16674}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 18108}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 18390}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 19688}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 21080}
     - Class: 114
-      Script: {instanceID: 7482}
+      Script: {instanceID: 22528}
     - Class: 114
-      Script: {instanceID: 8750}
+      Script: {instanceID: 23796}
     - Class: 114
-      Script: {instanceID: 9270}
+      Script: {instanceID: 24316}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 24762}
     - Class: 114
-      Script: {instanceID: 9752}
+      Script: {instanceID: 24798}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1511,4 +1508,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/Maps/MainTown01.unity
-  playerPath: "C:/Users/ohmar/OneDrive/\uBB38\uC11C/OurAdventureRE_EXE"
+  playerPath: "C:/Users/ohmar/OneDrive/\uBB38\uC11C/Our-Adventure-Client/OurAdventureRE_EXE"
