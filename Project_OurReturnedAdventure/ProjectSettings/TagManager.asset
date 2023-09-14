@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Character
   - Enemy
+  - DB
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - MapTile
   - Water
   - UI
-  - 
+  - Database
   - 
   - 
   - 
