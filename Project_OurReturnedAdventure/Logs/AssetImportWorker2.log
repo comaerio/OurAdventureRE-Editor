@@ -1,0 +1,411 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 14158 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49752
+Successfully changed project path to: C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
+C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34904] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 1646694805 [EditorId] 1646694805 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34904] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 1646694805 [EditorId] 1646694805 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 263.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7079 MB
+    Driver:   30.0.13044.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024047 seconds.
+- Loaded All Assemblies, in  1.407 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 511 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 2400ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (284ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (817ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (812ms)
+			TypeCache.Refresh (810ms)
+				TypeCache.ScanAssembly (793ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (996ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (691ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.265 seconds
+Refreshing native plugins compatible for Editor in 25.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.092 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (913ms)
+		LoadAssemblies (596ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (449ms)
+			TypeCache.Refresh (394ms)
+				TypeCache.ScanAssembly (333ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (566ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 28.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (78.0 KB). Loaded Objects now: 5181.
+Memory consumption went from 162.4 MB to 162.3 MB.
+Total: 5.261000 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.185000 ms MarkObjects: 4.294900 ms  DeleteObjects: 0.257200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystem.cs: 4fd5ce2584689838d43783c2e3e79fd4 -> e01178f95f004e443ecc6be735b80782
+  custom:scripting/monoscript/fileName/OnLevelUnit.cs: 84865bf27d74abf832b37ec10af36d6c -> 9fdeb51f65c156710043d64abe7f6c17
+  custom:scripting/monoscript/fileName/GetThermalMetricUnit.cs: 335b3a7c134001fc277f227487eedeab -> bba5ce8de65ef060088c35c200a4b895
+  custom:scripting/monoscript/fileName/OnBoostUnit.cs: 276b6d12954a1e408697ab1551beaf4d -> f2c8b1f521498c0eaae8b328022cc8d8
+  custom:scripting/monoscript/fileName/OnBottleneckUnit.cs: 2abd8c8613ef5c000be624e1d2a7954a -> b9c4260dcf3a0c26bdad88dabffd4df1
+  custom:scripting/monoscript/fileName/AdaptiveLOD.cs: b89fc7509191393bac5e82f8a47e47f0 -> e9dfc62c07420e2aed8ef130e18c48ad
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerEditor.cs: cf9a1c4bcefbaec162f46a544f0cd53c -> 1b51348cf49cef3dfd9312ea99976a71
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoader.cs: 9d451e7eb79f2b022551f463b6c4b306 -> 7b6f9d01e651e554be222f57047cbb62
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManager.cs: 62bdaedaf65722a8e83d6242e36d2070 -> f4a7c6cfae9c372edccf6d6cc88076e6
+  custom:scripting/monoscript/fileName/AdaptiveBatching.cs: 29548728aa4c3c930ef95304bb48003b -> 32462f311b4dbf5f2b05ab0d66d59fce
+  custom:scripting/monoscript/fileName/SimulatorProviderSettingsEditor.cs: 9d5e0d747bde4773d3304c3a36f73955 -> baebdabc6ff1eea002d6134d7cc640d5
+  custom:scripting/monoscript/fileName/AdaptivePerformanceKnownPackages.cs: 8dbc5fc0d4bb98f71a3e2404d9529375 -> 2c0e6586aa08edcf34a9b530e6d5b653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AdaptiveTransparency.cs: 16a1c51afffdaee39dc2d31fa5555957 -> 101c45f7bb024cc56f4426e2a0a62d0f
+  custom:scripting/monoscript/fileName/ClusterInfo.cs: 2aab2c99860a83ef9772dbc67cb24911 -> 3ea6b052a690a346ccea6ba5711ec6da
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageInitialization.cs: 1161ea186aa4d3604fe8505372af441b -> eb60094d4168727d51b5ad64f934effb
+  custom:scripting/monoscript/fileName/SimulatorProviderSettings.cs: 9f29ec140c6ea6f01898fd7ee53d6b87 -> 50fd0f46d158c4bf3e73bb0fb276aa7d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceEventHooks.cs: 2c9885896c19c1a93c8a6f10a073911f -> eb0863d50308d5ecbbdb8fd4db067702
+  custom:scripting/monoscript/fileName/AdaptiveShadowmapResolution.cs: 2225da191603d9722e3c935ae4e699a6 -> b8bf648d78d2100b583584788c62b506
+  custom:scripting/monoscript/fileName/IAdaptivePerformance.cs: 3993f3081d5ae3f2697dddad0dd49a56 -> 592abebb381c23cb1825771e41be316b
+  custom:scripting/monoscript/fileName/AdaptiverPerformanceLog.cs: d530f20e0bbc60f143b72f7a74c93ad8 -> 25f4b63f26c9cb50ec100e9406a7fa53
+  custom:scripting/monoscript/fileName/AdaptivePerformanceIndexer.cs: 62995ea9d21edfa9d93770326d70e5e1 -> 9ee9780b0a9a9c54102984e50c1de333
+  custom:scripting/monoscript/fileName/AdaptiveShadowQuality.cs: 87b3649d4311727a6f1914cb25b8cd77 -> a9ecebdd72039dab428c58919ca0c9ea
+  custom:scripting/monoscript/fileName/AdaptiveShadowDistance.cs: 1cbdd5638448396c571a833755ae1c80 -> 0e469edb6ab0c74b06a72ae4424df42d
+  custom:scripting/monoscript/fileName/FPSUnit.cs: 408f503d38bf752f8ca0dc31ff820897 -> 22e770cfd34271d89468f0cdb4f9264b
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSupportedBuildTargetAttribute.cs: cc832c44ddc7ca0b5bcbc2ba6b5238ff -> b55ce1ac25e5b5f0cf6d47ccd6996652
+  custom:scripting/monoscript/fileName/AdaptiveShadowCascade.cs: 866754a9dc2ea7596e9c4a2b875313ca -> e721f49f2e73789f28415411cd6a73c8
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderOrderUI.cs: aa9fe5f681e0b5d4bee581b2bda4a03b -> 34ead2fac85a7687e9b2b4e7c479eda7
+  custom:scripting/monoscript/fileName/GpuTime.cs: 48bdce191606630bab381e03039251ca -> 408c5168fe38d6572480f188856d150f
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 971e04497832689b80753c390024dac3 -> 30b00f6fd9acb9931abb13cef51abbae
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettingsPerBuildTarget.cs: 67853344eb5d0f5b1e74e098ca9a1beb -> 3753b07006e7580366a60035a64414d9
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettings.cs: 11b3db3b76e2435af90bd493a2606713 -> a1ed3ae1cb8da01d5316326e7ceeafe2
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBuildProcessorHelper.cs: 5f8546aac52a4e7547bcac78fa9e61d9 -> 2e1b1a28a3a4d013ffe5d37ba564cfab
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AdaptivePhysics.cs: 461c53a1b2c28a173bf007938f28be83 -> b6d94f8b5a7e785e5b36f4c9c4b45abf
+  custom:scripting/monoscript/fileName/OnPerformanceLevelsUnit.cs: c86fae932e780b8c67e49cb4b1841390 -> 734ab774cfa8bdd770aa1ad4b4acea51
+  custom:scripting/monoscript/fileName/AdaptivePerformanceUIExtension.cs: 99a042ae7227c0ffa0d3d922cb5ebc2f -> bf27f9c2759a33eeac333926103f3b93
+  custom:scripting/monoscript/fileName/CpuTime.cs: bf3a2e5540ed8647a5dab3965ffb709e -> adb828938d2352b1f8f58c79f7cce5fa
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSettingsManager.cs: 47bc485111dcc6e9a7771b16395d0db0 -> 303baca7b4d0e33e2861ec4e66796379
+  custom:scripting/monoscript/fileName/SimulatorProviderConstants.cs: 3ada1110102471432814f26867156e38 -> 63196f4a76fb8885675854009c698aa1
+  custom:scripting/monoscript/fileName/EnterNamePopup.cs: 9695845b8d703ffc5c34745f05a38f9d -> da7760c1c128bb94a9676f14076ea6d5
+  custom:scripting/monoscript/fileName/EditorWorkQueue.cs: d82d551f59513ea35328aa16a5ada5d7 -> 669716655f8b46b426a27eb7c604a17a
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AutoPerformanceLevelController.cs: 301417b2bb0b314d7126cc370c6c78b8 -> db38478e42c3c516a42d537cacb52a98
+  custom:scripting/monoscript/fileName/AdaptiveFramerate.cs: 1aac7aed74479db96943d200a12cf458 -> 1cceb99366a0e9d205eaa5b4dd9b2134
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AdaptiveSorting.cs: 4bfc322bd1678556e22441c1b5c55bcc -> 512e1b7598086c090b2ecf38d8f0c4c0
+  custom:scripting/monoscript/fileName/FrameTimingUnit.cs: 143b73097f67ebb57761bc3eafa43bed -> d09ad89f9844aeadfaf68b73b37be5d1
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralBuildProcessor.cs: 565115078f05728cc49596fd3427c5d8 -> 55096fe0e1c54ec36986062f3aa7a66f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/SubsystemRegistration.cs: 5e5797a36e40e2f1efc630a0fb8c6cf0 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AdaptiveViewDistance.cs: e9e5dc45ed19a8abe9bb732d58877998 -> 6c0015e9d427cf3004d3259807419688
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderHelper.cs: 686a8e533e6fa3ebd517ee4ae242e0a9 -> fa57e8a0aacf6756eba14595999551ab
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerSettings.cs: 59824713f0829be0cc731c6c48f34473 -> 0a3d542b329c158a69b5de36364d00a2
+  custom:scripting/monoscript/fileName/AdaptivePerformanceDetailsViewController.cs: c744fef9f28f1d27a0494f2cd51c7727 -> b61c78895eb679caa4bb47a966bb5aef
+  custom:scripting/monoscript/fileName/GetBoostUnit.cs: b7c14f396d46538c99dbbf972f2a204d -> 50bdb9e86fe58514ab4fd42288577925
+  custom:scripting/monoscript/fileName/IDevelopmentSettings.cs: 12431ccb6724f176a63bf7cf6f43d4f6 -> 2d8fe703b616f9efca324b5f5d0693d4
+  custom:scripting/monoscript/fileName/RunningAverage.cs: fb034790add00415021e48b1385dd945 -> 73c6f2d5c68af1b5c3d611550831b24a
+  custom:scripting/monoscript/fileName/TemperatureTrend.cs: a1bdf029b165de62226d2bcf68f41ae9 -> 53ab772a6edbd764646698358643fc6a
+  custom:scripting/monoscript/fileName/AdaptiveDecals.cs: 136c202490911628f654f1ed477d0443 -> f0bedcaa337b2fb4d2cd753fe8b8a7c3
+  custom:scripting/monoscript/fileName/AdaptiveMSAA.cs: 11f01a3960cc9c9a0542933d582210d8 -> 76ef3a5109c797e5b4123cf0916ee941
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerModule.cs: e5f02cbc447cd3700009e369eefd2ae6 -> 495fc0ebd3fe0c60ec5bbc678c07d4fd
+  custom:scripting/monoscript/fileName/IPerformanceStatus.cs: f5085df78cd197c5524e6e09517c31ee -> 8049ea67cb6e6367c9a9f680d775ec81
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageMetadata.cs: 588cc8a51e8d3b6e9beb1516d4691812 -> 6e05472e3aa9b850c8ea0609207dafac
+  custom:scripting/monoscript/fileName/SimulatorProviderLoader.cs: 2068ad1da85fe7879aac61d99e55a5be -> dc1e444c6d55b3262a0d030c61434b46
+  custom:scripting/monoscript/fileName/IDevicePerformanceControl.cs: cfcb51d81a94e417d5b2ede72da885b1 -> 1fc0e6664d44619270043683a6bf4ee8
+  custom:scripting/monoscript/fileName/AdaptiveLayerCulling.cs: a5a5b65264a0782e9abbea536b1f139e -> 923bdfa942436eee828e303c46d5c94e
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConstants.cs: 64263894dc1f1da09871f8a77b4ac79d -> d16f7aecee713227bd2d755390b90894
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: bd1e07aa74c60fbe54f88e8fe7e1b252 -> 66f11d48a2b9256936f98d607c04d91b
+  custom:scripting/monoscript/fileName/AdaptivePerformanceRenderSettings.cs: 10f530e5612be62185d07f1f845d24da -> bff70e7133f1024d7c0d83fe00ad5463
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBottleneckDetection.cs: ca4372cd065e67af3f4a9823c479b2ca -> bb154de462b8cf6d56edde132643136f
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimulatorAdaptivePerformanceSubsystem.cs: 66b854f8c6fcdc1d09d710db8fdda128 -> 7a99be165b9b521508ea7bbcbb274efd
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SetPerformanceLevelsUnit.cs: 7aa2a28d7d94f0ed0b39d8c9b9e43273 -> 58401cdfa1bce795e546f759c8906927
+  custom:scripting/monoscript/fileName/GetIndexerUnit.cs: f61dd7202da47b3a46914e4eef583c78 -> 281524d97345598bac46fa6afde08878
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackage.cs: 71d178b07731220644c0855a4cd6d254 -> a2318c73fa2835eae77d73ec0efcb17b
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfoManager.cs: 77b61ad8be62e547d3b422cad91f5265 -> 90396bfdbde11e24b78d89546aa009e4
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 0156529179a4df2286408513dfca55e8 -> 08201bff8bb60a3bed7d14c5b015fd57
+  custom:scripting/monoscript/fileName/AdaptivePerformanceScaler.cs: d478a17abb8e8bcdb5f9d8025f20de34 -> 95a323f07da62ef59bc81dad0f0e4bc2
+  custom:scripting/monoscript/fileName/AdaptiveResolution.cs: f38693930d50055dc3e6fe23b6fe3a90 -> 224690b5dece539896740a0a0a3e56a8
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfo.cs: 376c02435b61708319dcc741ecfe6549 -> 02442e2d355507e81c87cf7e3f19bf35
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationProvider.cs: 88494329f6c2f9c12704f6d75d458a6c -> 9b55fa20133fbff5129037066bc3fb16
+  custom:scripting/monoscript/fileName/GetPerformanceLevelsUnit.cs: 6469cf237427340bf741d0484ae02aad -> 0056cefbfd4d7555e0a992a4901b0669
+  custom:scripting/monoscript/fileName/AdaptiveLut.cs: 0f3a5ae9b0fa22d73dea4d4747719be2 -> 2da68acd34b47d72ca32efa07a0d3c7f
+  custom:scripting/monoscript/fileName/DevicePerformanceControl.cs: e71cd5e8f46b023118733799e32f8ec0 -> 492efb7d23549bc1cf98a01073a37eee
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UsageDial.cs: b3548c496c5ee837fe6387f1aa043342 -> 0600240de106b1ae286f73dcd509b819
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationData.cs: 40bc3752c4344d30ca4f28dd3d1a8eaf -> 54d5546f17681ea22d5ca758b2212dee
+  custom:scripting/monoscript/fileName/IAdaptivePerformanceSettings.cs: 8ce31cf29bc68ff0d5a504b85c05d932 -> 99d9ff614bcb5ba41c8ce2c5ccf0b4d8
+  custom:scripting/monoscript/fileName/SetBoostUnit.cs: 8456403bd56dacb5772e3c522a9bb19f -> c14e3f94f958974f3a18a3621f45e205
+  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalytics.cs: b928a0143142da61949ead96b5f4c932 -> 6245d879f3f7acd89c3d9d7dbc899eea
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystemDescriptor.cs: 543cff7eefdf37bfc583f619a77b0f95 -> 7f97c5ae33eecb599b040e357d157fbe
+  custom:scripting/monoscript/fileName/AdaptivePerformanceInit.cs: 42595a650b781221e77c42d18b954fa8 -> f39513fbfcd176ae0aae0bac66771f72
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerStats.cs: 38409d5ad84c7200720fcf975c1527b6 -> 266eeb23e39c89761110b73324af6e62
+  custom:scripting/monoscript/fileName/OnThermalMetricUnit.cs: f5fb5495d88c44fbbf720f9bdafe376c -> 081b6445024203ac9cac053152708458
+  custom:scripting/monoscript/fileName/IThermalStatus.cs: 88a5dbe0601b13947878ee66c12fbbd8 -> 192007087d4968ae687c5e371b74a175
+  custom:scripting/monoscript/fileName/ProviderSettingsEditor.cs: 50aaffde828283232d190150837226f9 -> d9c7a4e898c60b7ca344cda42eeee3ce
+========================================================================
+Received Import Request.
+  Time since last request: 2920924.777188 seconds.
+  path: Assets/KenneyAssets/kenney_emotes-pack
+  artifactKey: Guid(820edd1bb39dddd46b1e8b8776e0c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_emotes-pack using Guid(820edd1bb39dddd46b1e8b8776e0c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a10ce4fbe565dd7922a65b9420594b6') in 0.003389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.379040 seconds.
+  path: Assets/KenneyAssets/kenney_digital-audio
+  artifactKey: Guid(450eda686656569408bd3b3b2d989c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_digital-audio using Guid(450eda686656569408bd3b3b2d989c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecb2f9b662a77772fa0a1934abd5d9f') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.074736 seconds.
+  path: Assets/KenneyAssets/kenney_impact-sounds
+  artifactKey: Guid(fc8b3e368feb3ab459296c765197d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_impact-sounds using Guid(fc8b3e368feb3ab459296c765197d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3e6d74281fcb1e6110544e3c7798ec') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.440418 seconds.
+  path: Assets/KenneyAssets/kenney_Input_Prompts_16p
+  artifactKey: Guid(63bfb11214d402d4d8ddc6fad5f3bc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_Input_Prompts_16p using Guid(63bfb11214d402d4d8ddc6fad5f3bc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723467e38099d5926c5c938f522b9398') in 0.000887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.609148 seconds.
+  path: Assets/KenneyAssets/kenney_interface-sounds
+  artifactKey: Guid(1b5ef87f13eb36446a1e62d57f8da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_interface-sounds using Guid(1b5ef87f13eb36446a1e62d57f8da0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf588e1bf211d0b7433475e239b0ba6') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.484733 seconds.
+  path: Assets/KenneyAssets/kenney_monochrome-rpg
+  artifactKey: Guid(5eeb0c4994963cf4cb5f853b8c00cc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_monochrome-rpg using Guid(5eeb0c4994963cf4cb5f853b8c00cc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e415ef03382309834e9ec79894c0f5') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.932117 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack
+  artifactKey: Guid(b70a74df0580abd42b208abaa3390b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack using Guid(b70a74df0580abd42b208abaa3390b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9006a47bf60a5a3d24a688fe0d677c4b') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.568444 seconds.
+  path: Assets/KenneyAssets/kenney_roguelike-caves-dungeons
+  artifactKey: Guid(fd17cadcf282b054eba3b9594ea9181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_roguelike-caves-dungeons using Guid(fd17cadcf282b054eba3b9594ea9181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36d6e60735771b72ed3a48920d6fc0c') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.513216 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-audio
+  artifactKey: Guid(a35dbea6b190de74dad3b0bc0dc037d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-audio using Guid(a35dbea6b190de74dad3b0bc0dc037d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d9d379377cadd5a7377ebddafbdb31') in 0.000714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.985626 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base
+  artifactKey: Guid(6f95a6be6fd626b479aa8dcbaf1b66f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base using Guid(6f95a6be6fd626b479aa8dcbaf1b66f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f170438bdda2df698432e4d2cb2e602') in 0.000556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.531117 seconds.
+  path: Assets/KenneyAssets/kenney_sci-fi-sounds
+  artifactKey: Guid(c85d00ab4583746448d902ca1517e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_sci-fi-sounds using Guid(c85d00ab4583746448d902ca1517e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4410575d8becd36a61b4ca9306f3674') in 0.000628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.144719 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/preview.png
+  artifactKey: Guid(09dd5aab5757b22439f1f14357bcca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/preview.png using Guid(09dd5aab5757b22439f1f14357bcca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7c03c6cb026f22a55769cdaa2d2f4d') in 0.134476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.061706 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/Spritesheet
+  artifactKey: Guid(88641d27072d24c4b8dbd62fd372042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/Spritesheet using Guid(88641d27072d24c4b8dbd62fd372042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41f328aa81863b122fe1a2c12dd0492') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053447 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet.png
+  artifactKey: Guid(456bcc16722fd4341a398d42b9a0e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet.png using Guid(456bcc16722fd4341a398d42b9a0e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b49e96cba5a4728805237bafbab918') in 0.045847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.096259 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet_2X.png
+  artifactKey: Guid(8985fe1854153674aad8029f8436be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet_2X.png using Guid(8985fe1854153674aad8029f8436be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4855b336ed1954e419a7f70db6f4fabe') in 0.041362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 75.908983 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet_2X.png
+  artifactKey: Guid(8985fe1854153674aad8029f8436be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet_2X.png using Guid(8985fe1854153674aad8029f8436be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fc782383a3ef275dde01b221d84bcd') in 1.200406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 262

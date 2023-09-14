@@ -21,9 +21,15 @@ Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ref.dll_8C9D88D4D544B7B9
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Updater.ref.dll_80FC5D41077E44D3.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.ref.dll_D970B68560CBEF78.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Editor.ref.dll_CAB61235C977AC39.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Google.Android.Editor.ref.dll_670A4441EEF0DC6B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Google.Android.ref.dll_4262CF858948A7A6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Profiler.Editor.ref.dll_960CC9837526936C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Samsung.Android.Editor.ref.dll_74EE43AE80B0C04C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Samsung.Android.ref.dll_49F312C20D0BB9B5.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Editor.ref.dll_E1C1C14924571B23.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Extension.ref.dll_16985593077EEFAF.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Google.Extension.ref.dll_371F0F290E823A80.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.VRR.Extension.ref.dll_204A589381D5EB97.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.UI.Editor.ref.dll_727D711C61C7AA31.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.ref.dll_3460D78B3CD3B2F8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_030BCB777AA5BDC3.mvfrm
@@ -43,7 +49,6 @@ Library\Bee\artifacts\mvdfrm\Unity.Notifications.iOS.ref.dll_6E05C9845B577095.mv
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_9B6D9940AFF80C3C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Profiling.Core.ref.dll_29C6C54F498BDD8F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_BB682F4C994978A9.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Subsystem.Registration.ref.dll_973E1479A131D130.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_E01181B6C057CE40.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_3701448EC0EF5C81.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_05875DFCD7CD8938.mvfrm

@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Maps/MainTown01.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3cd0453784775cc46840b1c6aa19874f, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 9807b1b65bcffcc47895047deaef7668, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 5000ab62cbb62784eb43b6c3cb4fbf3c, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: cfa268682623bf6488cc6e8f1b559156, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 2aaefb53682b9a7419dd7853d47f9132, type: 2}

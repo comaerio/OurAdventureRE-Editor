@@ -16,8 +16,7 @@ extern void Character_MoveMobile_Start_m5367C4E84A3420E56B438EBB605BEDD0095D499E
 extern void Character_MoveMobile_FixedUpdate_m40707CF6E2A376C36D007DCC3D121CB9A9746E20 (void);
 extern void Character_MoveMobile__ctor_mEBD8565566E8082DB4AA7E95D3598CBDC78BFA70 (void);
 extern void Character_MovePC_Start_mEE57E33009D33530E4FFA66B4718720B5121B416 (void);
-extern void Character_MovePC_speedreset_m95CE8DA418ED0B4D3B6D83D060A320362F113A0C (void);
-extern void Character_MovePC_Update_m7E2FBBF371D697DB08951FA2FFF9C91ED594B3B2 (void);
+extern void Character_MovePC_FixedUpdate_m48EC92290E7041DFF2DCB9D06BD0D12FE2C729DE (void);
 extern void Character_MovePC__ctor_m503CD41C68D5F502FD88E0B38D5D03B4473DF673 (void);
 extern void Character_Skills_Start_mE5FE725345CB8B41869F5734F33AA89689C69A1B (void);
 extern void Character_Skills_Update_m1984CC7156EDF2146210F38DF526C1A20E5A8C9B (void);
@@ -40,14 +39,13 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[28] = 
+static Il2CppMethodPointer s_methodPointers[27] = 
 {
 	Character_MoveMobile_Start_m5367C4E84A3420E56B438EBB605BEDD0095D499E,
 	Character_MoveMobile_FixedUpdate_m40707CF6E2A376C36D007DCC3D121CB9A9746E20,
 	Character_MoveMobile__ctor_mEBD8565566E8082DB4AA7E95D3598CBDC78BFA70,
 	Character_MovePC_Start_mEE57E33009D33530E4FFA66B4718720B5121B416,
-	Character_MovePC_speedreset_m95CE8DA418ED0B4D3B6D83D060A320362F113A0C,
-	Character_MovePC_Update_m7E2FBBF371D697DB08951FA2FFF9C91ED594B3B2,
+	Character_MovePC_FixedUpdate_m48EC92290E7041DFF2DCB9D06BD0D12FE2C729DE,
 	Character_MovePC__ctor_m503CD41C68D5F502FD88E0B38D5D03B4473DF673,
 	Character_Skills_Start_mE5FE725345CB8B41869F5734F33AA89689C69A1B,
 	Character_Skills_Update_m1984CC7156EDF2146210F38DF526C1A20E5A8C9B,
@@ -71,9 +69,8 @@ static Il2CppMethodPointer s_methodPointers[28] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[28] = 
+static const int32_t s_InvokerIndices[27] = 
 {
-	6891,
 	6891,
 	6891,
 	6891,
@@ -106,7 +103,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	28,
+	27,
 	s_methodPointers,
 	0,
 	NULL,
