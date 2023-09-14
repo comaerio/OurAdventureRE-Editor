@@ -15,7 +15,7 @@ C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-49752
+50034
 Successfully changed project path to: C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
 C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10040] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 1992275479 [EditorId] 1992275479 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15064] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 67774208 [EditorId] 67774208 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10040] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 1992275479 [EditorId] 1992275479 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15064] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 67774208 [EditorId] 67774208 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 259.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 84.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022231 seconds.
-- Loaded All Assemblies, in  1.407 seconds
+Registered in 0.052746 seconds.
+- Loaded All Assemblies, in  1.067 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 512 ms
+Android Extension - Scanning For ADB Devices 684 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.997 seconds
-Domain Reload Profiling: 2398ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  1.503 seconds
+Domain Reload Profiling: 2558ms
+	BeginReloadAssembly (308ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (285ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (827ms)
-		LoadAssemblies (161ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (202ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (823ms)
-			TypeCache.Refresh (820ms)
-				TypeCache.ScanAssembly (803ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (362ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (998ms)
+	FinalizeReload (1504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (908ms)
+		SetupLoadedEditorAssemblies (1353ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (692ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (981ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 2398ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.268 seconds
-Refreshing native plugins compatible for Editor in 23.81 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.019 seconds
+Refreshing native plugins compatible for Editor in 45.48 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -136,164 +136,1325 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.090 seconds
-Domain Reload Profiling: 2348ms
-	BeginReloadAssembly (218ms)
+- Finished resetting the current domain, in  1.942 seconds
+Domain Reload Profiling: 3925ms
+	BeginReloadAssembly (375ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (900ms)
-		LoadAssemblies (596ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (1321ms)
+		LoadAssemblies (1031ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (391ms)
-				TypeCache.ScanAssembly (315ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1090ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (429ms)
+				TypeCache.ScanAssembly (382ms)
+			ScanForSourceGeneratedMonoScriptInfo (64ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1943ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (813ms)
+		SetupLoadedEditorAssemblies (1510ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (573ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (1089ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 27.66 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 45.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (78.0 KB). Loaded Objects now: 5181.
-Memory consumption went from 162.4 MB to 162.4 MB.
-Total: 5.706600 ms (FindLiveObjects: 0.619100 ms CreateObjectMapping: 0.424800 ms MarkObjects: 4.444900 ms  DeleteObjects: 0.216200 ms)
+Unloading 99 unused Assets / (77.9 KB). Loaded Objects now: 5181.
+Memory consumption went from 162.4 MB to 162.3 MB.
+Total: 8.833900 ms (FindLiveObjects: 0.843700 ms CreateObjectMapping: 0.777600 ms MarkObjects: 6.881200 ms  DeleteObjects: 0.328600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystem.cs: 4fd5ce2584689838d43783c2e3e79fd4 -> e01178f95f004e443ecc6be735b80782
-  custom:scripting/monoscript/fileName/OnLevelUnit.cs: 84865bf27d74abf832b37ec10af36d6c -> 9fdeb51f65c156710043d64abe7f6c17
-  custom:scripting/monoscript/fileName/GetThermalMetricUnit.cs: 335b3a7c134001fc277f227487eedeab -> bba5ce8de65ef060088c35c200a4b895
-  custom:scripting/monoscript/fileName/OnBoostUnit.cs: 276b6d12954a1e408697ab1551beaf4d -> f2c8b1f521498c0eaae8b328022cc8d8
-  custom:scripting/monoscript/fileName/OnBottleneckUnit.cs: 2abd8c8613ef5c000be624e1d2a7954a -> b9c4260dcf3a0c26bdad88dabffd4df1
-  custom:scripting/monoscript/fileName/AdaptiveLOD.cs: b89fc7509191393bac5e82f8a47e47f0 -> e9dfc62c07420e2aed8ef130e18c48ad
-  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerEditor.cs: cf9a1c4bcefbaec162f46a544f0cd53c -> 1b51348cf49cef3dfd9312ea99976a71
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoader.cs: 9d451e7eb79f2b022551f463b6c4b306 -> 7b6f9d01e651e554be222f57047cbb62
-  custom:scripting/monoscript/fileName/AdaptivePerformanceManager.cs: 62bdaedaf65722a8e83d6242e36d2070 -> f4a7c6cfae9c372edccf6d6cc88076e6
-  custom:scripting/monoscript/fileName/AdaptiveBatching.cs: 29548728aa4c3c930ef95304bb48003b -> 32462f311b4dbf5f2b05ab0d66d59fce
-  custom:scripting/monoscript/fileName/SimulatorProviderSettingsEditor.cs: 9d5e0d747bde4773d3304c3a36f73955 -> baebdabc6ff1eea002d6134d7cc640d5
-  custom:scripting/monoscript/fileName/AdaptivePerformanceKnownPackages.cs: 8dbc5fc0d4bb98f71a3e2404d9529375 -> 2c0e6586aa08edcf34a9b530e6d5b653
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/AdaptiveTransparency.cs: 16a1c51afffdaee39dc2d31fa5555957 -> 101c45f7bb024cc56f4426e2a0a62d0f
-  custom:scripting/monoscript/fileName/ClusterInfo.cs: 2aab2c99860a83ef9772dbc67cb24911 -> 3ea6b052a690a346ccea6ba5711ec6da
-  custom:scripting/monoscript/fileName/AdaptivePerformancePackageInitialization.cs: 1161ea186aa4d3604fe8505372af441b -> eb60094d4168727d51b5ad64f934effb
-  custom:scripting/monoscript/fileName/SimulatorProviderSettings.cs: 9f29ec140c6ea6f01898fd7ee53d6b87 -> 50fd0f46d158c4bf3e73bb0fb276aa7d
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceEventHooks.cs: 2c9885896c19c1a93c8a6f10a073911f -> eb0863d50308d5ecbbdb8fd4db067702
-  custom:scripting/monoscript/fileName/AdaptiveShadowmapResolution.cs: 2225da191603d9722e3c935ae4e699a6 -> b8bf648d78d2100b583584788c62b506
-  custom:scripting/monoscript/fileName/IAdaptivePerformance.cs: 3993f3081d5ae3f2697dddad0dd49a56 -> 592abebb381c23cb1825771e41be316b
-  custom:scripting/monoscript/fileName/AdaptiverPerformanceLog.cs: d530f20e0bbc60f143b72f7a74c93ad8 -> 25f4b63f26c9cb50ec100e9406a7fa53
-  custom:scripting/monoscript/fileName/AdaptivePerformanceIndexer.cs: 62995ea9d21edfa9d93770326d70e5e1 -> 9ee9780b0a9a9c54102984e50c1de333
-  custom:scripting/monoscript/fileName/AdaptiveShadowQuality.cs: 87b3649d4311727a6f1914cb25b8cd77 -> a9ecebdd72039dab428c58919ca0c9ea
-  custom:scripting/monoscript/fileName/AdaptiveShadowDistance.cs: 1cbdd5638448396c571a833755ae1c80 -> 0e469edb6ab0c74b06a72ae4424df42d
-  custom:scripting/monoscript/fileName/FPSUnit.cs: 408f503d38bf752f8ca0dc31ff820897 -> 22e770cfd34271d89468f0cdb4f9264b
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSupportedBuildTargetAttribute.cs: cc832c44ddc7ca0b5bcbc2ba6b5238ff -> b55ce1ac25e5b5f0cf6d47ccd6996652
-  custom:scripting/monoscript/fileName/AdaptiveShadowCascade.cs: 866754a9dc2ea7596e9c4a2b875313ca -> e721f49f2e73789f28415411cd6a73c8
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderOrderUI.cs: aa9fe5f681e0b5d4bee581b2bda4a03b -> 34ead2fac85a7687e9b2b4e7c479eda7
-  custom:scripting/monoscript/fileName/GpuTime.cs: 48bdce191606630bab381e03039251ca -> 408c5168fe38d6572480f188856d150f
-  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 971e04497832689b80753c390024dac3 -> 30b00f6fd9acb9931abb13cef51abbae
-  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettingsPerBuildTarget.cs: 67853344eb5d0f5b1e74e098ca9a1beb -> 3753b07006e7580366a60035a64414d9
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettings.cs: 11b3db3b76e2435af90bd493a2606713 -> a1ed3ae1cb8da01d5316326e7ceeafe2
-  custom:scripting/monoscript/fileName/AdaptivePerformanceBuildProcessorHelper.cs: 5f8546aac52a4e7547bcac78fa9e61d9 -> 2e1b1a28a3a4d013ffe5d37ba564cfab
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/AdaptivePhysics.cs: 461c53a1b2c28a173bf007938f28be83 -> b6d94f8b5a7e785e5b36f4c9c4b45abf
-  custom:scripting/monoscript/fileName/OnPerformanceLevelsUnit.cs: c86fae932e780b8c67e49cb4b1841390 -> 734ab774cfa8bdd770aa1ad4b4acea51
-  custom:scripting/monoscript/fileName/AdaptivePerformanceUIExtension.cs: 99a042ae7227c0ffa0d3d922cb5ebc2f -> bf27f9c2759a33eeac333926103f3b93
-  custom:scripting/monoscript/fileName/CpuTime.cs: bf3a2e5540ed8647a5dab3965ffb709e -> adb828938d2352b1f8f58c79f7cce5fa
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSettingsManager.cs: 47bc485111dcc6e9a7771b16395d0db0 -> 303baca7b4d0e33e2861ec4e66796379
-  custom:scripting/monoscript/fileName/SimulatorProviderConstants.cs: 3ada1110102471432814f26867156e38 -> 63196f4a76fb8885675854009c698aa1
-  custom:scripting/monoscript/fileName/EnterNamePopup.cs: 9695845b8d703ffc5c34745f05a38f9d -> da7760c1c128bb94a9676f14076ea6d5
-  custom:scripting/monoscript/fileName/EditorWorkQueue.cs: d82d551f59513ea35328aa16a5ada5d7 -> 669716655f8b46b426a27eb7c604a17a
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/AutoPerformanceLevelController.cs: 301417b2bb0b314d7126cc370c6c78b8 -> db38478e42c3c516a42d537cacb52a98
-  custom:scripting/monoscript/fileName/AdaptiveFramerate.cs: 1aac7aed74479db96943d200a12cf458 -> 1cceb99366a0e9d205eaa5b4dd9b2134
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AdaptiveSorting.cs: 4bfc322bd1678556e22441c1b5c55bcc -> 512e1b7598086c090b2ecf38d8f0c4c0
-  custom:scripting/monoscript/fileName/FrameTimingUnit.cs: 143b73097f67ebb57761bc3eafa43bed -> d09ad89f9844aeadfaf68b73b37be5d1
-  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralBuildProcessor.cs: 565115078f05728cc49596fd3427c5d8 -> 55096fe0e1c54ec36986062f3aa7a66f
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/SubsystemRegistration.cs: 5e5797a36e40e2f1efc630a0fb8c6cf0 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/AdaptiveViewDistance.cs: e9e5dc45ed19a8abe9bb732d58877998 -> 6c0015e9d427cf3004d3259807419688
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderHelper.cs: 686a8e533e6fa3ebd517ee4ae242e0a9 -> fa57e8a0aacf6756eba14595999551ab
-  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerSettings.cs: 59824713f0829be0cc731c6c48f34473 -> 0a3d542b329c158a69b5de36364d00a2
-  custom:scripting/monoscript/fileName/AdaptivePerformanceDetailsViewController.cs: c744fef9f28f1d27a0494f2cd51c7727 -> b61c78895eb679caa4bb47a966bb5aef
-  custom:scripting/monoscript/fileName/GetBoostUnit.cs: b7c14f396d46538c99dbbf972f2a204d -> 50bdb9e86fe58514ab4fd42288577925
-  custom:scripting/monoscript/fileName/IDevelopmentSettings.cs: 12431ccb6724f176a63bf7cf6f43d4f6 -> 2d8fe703b616f9efca324b5f5d0693d4
-  custom:scripting/monoscript/fileName/RunningAverage.cs: fb034790add00415021e48b1385dd945 -> 73c6f2d5c68af1b5c3d611550831b24a
-  custom:scripting/monoscript/fileName/TemperatureTrend.cs: a1bdf029b165de62226d2bcf68f41ae9 -> 53ab772a6edbd764646698358643fc6a
-  custom:scripting/monoscript/fileName/AdaptiveDecals.cs: 136c202490911628f654f1ed477d0443 -> f0bedcaa337b2fb4d2cd753fe8b8a7c3
-  custom:scripting/monoscript/fileName/AdaptiveMSAA.cs: 11f01a3960cc9c9a0542933d582210d8 -> 76ef3a5109c797e5b4123cf0916ee941
-  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerModule.cs: e5f02cbc447cd3700009e369eefd2ae6 -> 495fc0ebd3fe0c60ec5bbc678c07d4fd
-  custom:scripting/monoscript/fileName/IPerformanceStatus.cs: f5085df78cd197c5524e6e09517c31ee -> 8049ea67cb6e6367c9a9f680d775ec81
-  custom:scripting/monoscript/fileName/AdaptivePerformancePackageMetadata.cs: 588cc8a51e8d3b6e9beb1516d4691812 -> 6e05472e3aa9b850c8ea0609207dafac
-  custom:scripting/monoscript/fileName/SimulatorProviderLoader.cs: 2068ad1da85fe7879aac61d99e55a5be -> dc1e444c6d55b3262a0d030c61434b46
-  custom:scripting/monoscript/fileName/IDevicePerformanceControl.cs: cfcb51d81a94e417d5b2ede72da885b1 -> 1fc0e6664d44619270043683a6bf4ee8
-  custom:scripting/monoscript/fileName/AdaptiveLayerCulling.cs: a5a5b65264a0782e9abbea536b1f139e -> 923bdfa942436eee828e303c46d5c94e
-  custom:scripting/monoscript/fileName/AdaptivePerformanceConstants.cs: 64263894dc1f1da09871f8a77b4ac79d -> d16f7aecee713227bd2d755390b90894
-  custom:scripting/monoscript/fileName/BuildHelpers.cs: bd1e07aa74c60fbe54f88e8fe7e1b252 -> 66f11d48a2b9256936f98d607c04d91b
-  custom:scripting/monoscript/fileName/AdaptivePerformanceRenderSettings.cs: 10f530e5612be62185d07f1f845d24da -> bff70e7133f1024d7c0d83fe00ad5463
-  custom:scripting/monoscript/fileName/AdaptivePerformanceBottleneckDetection.cs: ca4372cd065e67af3f4a9823c479b2ca -> bb154de462b8cf6d56edde132643136f
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/SimulatorAdaptivePerformanceSubsystem.cs: 66b854f8c6fcdc1d09d710db8fdda128 -> 7a99be165b9b521508ea7bbcbb274efd
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SetPerformanceLevelsUnit.cs: 7aa2a28d7d94f0ed0b39d8c9b9e43273 -> 58401cdfa1bce795e546f759c8906927
-  custom:scripting/monoscript/fileName/GetIndexerUnit.cs: f61dd7202da47b3a46914e4eef583c78 -> 281524d97345598bac46fa6afde08878
-  custom:scripting/monoscript/fileName/AdaptivePerformancePackage.cs: 71d178b07731220644c0855a4cd6d254 -> a2318c73fa2835eae77d73ec0efcb17b
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfoManager.cs: 77b61ad8be62e547d3b422cad91f5265 -> 90396bfdbde11e24b78d89546aa009e4
-  custom:scripting/monoscript/fileName/EditorUtilities.cs: 0156529179a4df2286408513dfca55e8 -> 08201bff8bb60a3bed7d14c5b015fd57
-  custom:scripting/monoscript/fileName/AdaptivePerformanceScaler.cs: d478a17abb8e8bcdb5f9d8025f20de34 -> 95a323f07da62ef59bc81dad0f0e4bc2
-  custom:scripting/monoscript/fileName/AdaptiveResolution.cs: f38693930d50055dc3e6fe23b6fe3a90 -> 224690b5dece539896740a0a0a3e56a8
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfo.cs: 376c02435b61708319dcc741ecfe6549 -> 02442e2d355507e81c87cf7e3f19bf35
-  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationProvider.cs: 88494329f6c2f9c12704f6d75d458a6c -> 9b55fa20133fbff5129037066bc3fb16
-  custom:scripting/monoscript/fileName/GetPerformanceLevelsUnit.cs: 6469cf237427340bf741d0484ae02aad -> 0056cefbfd4d7555e0a992a4901b0669
-  custom:scripting/monoscript/fileName/AdaptiveLut.cs: 0f3a5ae9b0fa22d73dea4d4747719be2 -> 2da68acd34b47d72ca32efa07a0d3c7f
-  custom:scripting/monoscript/fileName/DevicePerformanceControl.cs: e71cd5e8f46b023118733799e32f8ec0 -> 492efb7d23549bc1cf98a01073a37eee
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/UsageDial.cs: b3548c496c5ee837fe6387f1aa043342 -> 0600240de106b1ae286f73dcd509b819
-  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationData.cs: 40bc3752c4344d30ca4f28dd3d1a8eaf -> 54d5546f17681ea22d5ca758b2212dee
-  custom:scripting/monoscript/fileName/IAdaptivePerformanceSettings.cs: 8ce31cf29bc68ff0d5a504b85c05d932 -> 99d9ff614bcb5ba41c8ce2c5ccf0b4d8
-  custom:scripting/monoscript/fileName/SetBoostUnit.cs: 8456403bd56dacb5772e3c522a9bb19f -> c14e3f94f958974f3a18a3621f45e205
-  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalytics.cs: b928a0143142da61949ead96b5f4c932 -> 6245d879f3f7acd89c3d9d7dbc899eea
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystemDescriptor.cs: 543cff7eefdf37bfc583f619a77b0f95 -> 7f97c5ae33eecb599b040e357d157fbe
-  custom:scripting/monoscript/fileName/AdaptivePerformanceInit.cs: 42595a650b781221e77c42d18b954fa8 -> f39513fbfcd176ae0aae0bac66771f72
-  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerStats.cs: 38409d5ad84c7200720fcf975c1527b6 -> 266eeb23e39c89761110b73324af6e62
-  custom:scripting/monoscript/fileName/OnThermalMetricUnit.cs: f5fb5495d88c44fbbf720f9bdafe376c -> 081b6445024203ac9cac053152708458
-  custom:scripting/monoscript/fileName/IThermalStatus.cs: 88a5dbe0601b13947878ee66c12fbbd8 -> 192007087d4968ae687c5e371b74a175
-  custom:scripting/monoscript/fileName/ProviderSettingsEditor.cs: 50aaffde828283232d190150837226f9 -> d9c7a4e898c60b7ca344cda42eeee3ce
 ========================================================================
 Received Import Request.
-  Time since last request: 2920933.495097 seconds.
-  path: Assets/KenneyAssets/kenney_rpg-base/sample.png
-  artifactKey: Guid(7b8bf3dcf0a03e443ba58f8040d2a3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_rpg-base/sample.png using Guid(7b8bf3dcf0a03e443ba58f8040d2a3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882bc25df77bc20288de98820b6fd68e') in 0.142017 seconds
+  Time since last request: 3486.740286 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile091.png
+  artifactKey: Guid(40327d25b404740488ca25ce12aa3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile091.png using Guid(40327d25b404740488ca25ce12aa3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799143a27a77c713509151c562cefac5') in 0.169232 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 3.113658 seconds.
-  path: Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet_2X.png
-  artifactKey: Guid(8985fe1854153674aad8029f8436be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_rpg-base/Spritesheet/RPGpack_sheet_2X.png using Guid(8985fe1854153674aad8029f8436be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76134c551501c9a99b5814042f00c6') in 0.069793 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile060.png
+  artifactKey: Guid(0ca3949cfc832734aad466e7f89fa60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile060.png using Guid(0ca3949cfc832734aad466e7f89fa60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785499ebdef8bf36abb51a42be6f03de') in 0.041024 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile160.png
+  artifactKey: Guid(72161da3ef203834c8f743058c998c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile160.png using Guid(72161da3ef203834c8f743058c998c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11389569efaaf66e398d832ea1d788b0') in 0.046345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile014.png
+  artifactKey: Guid(d6e4657a9486cb74f972ad624b0f046c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile014.png using Guid(d6e4657a9486cb74f972ad624b0f046c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cca0635d5581fdd74de5899e1ec1b03') in 0.043955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile053.png
+  artifactKey: Guid(ae549301f11122145b75c71646ce24bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile053.png using Guid(ae549301f11122145b75c71646ce24bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a579c21d8fc39acba60d1f14678be25') in 0.044683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile204.png
+  artifactKey: Guid(3bceac6793d6a94458f170ba00bbda09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile204.png using Guid(3bceac6793d6a94458f170ba00bbda09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149118fba02f69f58434f5374e79336b') in 0.044034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile201.png
+  artifactKey: Guid(c9644d2a4bbf3614d9c22c729eb1d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile201.png using Guid(c9644d2a4bbf3614d9c22c729eb1d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bdd33a01139bdfe8d609fb8b72df66') in 0.046070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile012.png
+  artifactKey: Guid(c8f5554a66d887f40ab0507578ca3edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile012.png using Guid(c8f5554a66d887f40ab0507578ca3edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5ffba44ad3464115519428a7567e5') in 0.047357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile139.png
+  artifactKey: Guid(d605e986510ce054a91ba253c0ea8ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile139.png using Guid(d605e986510ce054a91ba253c0ea8ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a5d8cfd96146918f6bd4329c0b05f2') in 0.045422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile017.png
+  artifactKey: Guid(78753072ae3852c4ebd28037766d9f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile017.png using Guid(78753072ae3852c4ebd28037766d9f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036b1bfbeaf12c33bd52ef76e8951d21') in 0.039143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile027.png
+  artifactKey: Guid(3fee206e5c71fa04c96e5cff606dd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile027.png using Guid(3fee206e5c71fa04c96e5cff606dd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26103bb48bcdc9aecf0806d4495ad6b') in 0.045744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile005.png
+  artifactKey: Guid(c2899223b95037649aa945452e92b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile005.png using Guid(c2899223b95037649aa945452e92b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d9517ddfa0481fce6c89291b1ad5ae') in 0.042771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile036.png
+  artifactKey: Guid(a7e2dc3009221e046873bb9eb5b62c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile036.png using Guid(a7e2dc3009221e046873bb9eb5b62c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba9286de01e74e97f56f4c769c94298') in 0.039467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile094.png
+  artifactKey: Guid(b193ec8d47518414892b5deb9b7ba349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile094.png using Guid(b193ec8d47518414892b5deb9b7ba349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb17e0625c811fec212225fd9682b04e') in 0.046028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile176.png
+  artifactKey: Guid(c8b9fdcbbdf2fe241a7072e8414d0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile176.png using Guid(c8b9fdcbbdf2fe241a7072e8414d0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd130e9f17d9d226a4a31de1a272eab33') in 0.043943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile212.png
+  artifactKey: Guid(e42c540deb3f94448b7b4a86f9a97ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile212.png using Guid(e42c540deb3f94448b7b4a86f9a97ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea517f0f3b101e03214d1c9150c85981') in 0.042783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile029.png
+  artifactKey: Guid(0aa89a1f259fa6d4fb6f490e99be64d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile029.png using Guid(0aa89a1f259fa6d4fb6f490e99be64d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e86f97e2704a045b3f4f28206f2c9b') in 0.049720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile127.png
+  artifactKey: Guid(6ad44e9b039cad44193d378156e8d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile127.png using Guid(6ad44e9b039cad44193d378156e8d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dc11edaf4395fd085dccc559c44355') in 0.040988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile165.png
+  artifactKey: Guid(739c9dc9ca02e6648acf7943e55f708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile165.png using Guid(739c9dc9ca02e6648acf7943e55f708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9333620e5a84176559243443d968e292') in 0.045535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile136.png
+  artifactKey: Guid(6b92c109a4d8a8b45a8f8809e95cb842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile136.png using Guid(6b92c109a4d8a8b45a8f8809e95cb842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e597ce439595ddf31cf709d2aa8c53') in 0.041676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile164.png
+  artifactKey: Guid(7abfb0bf3c7d2a440b0cd99565e3f2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile164.png using Guid(7abfb0bf3c7d2a440b0cd99565e3f2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aa0dfb839eb6ad8b5a6eecde7ab817') in 0.042471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile192.png
+  artifactKey: Guid(7a9f19622fa948a4bb26304b54d945a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile192.png using Guid(7a9f19622fa948a4bb26304b54d945a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3612627cdc986ed67a87c37ac99092') in 0.051597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile020.png
+  artifactKey: Guid(65d1eae8bbd1ada4db9e6a03d8d06a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile020.png using Guid(65d1eae8bbd1ada4db9e6a03d8d06a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84278787e6a2beb58823bd0447d45e9') in 0.046933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile182.png
+  artifactKey: Guid(0e9a9ef2d26fb8640852b2ca8819f929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile182.png using Guid(0e9a9ef2d26fb8640852b2ca8819f929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b734be94e037f47a2c2e9e07253466') in 0.042431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile090.png
+  artifactKey: Guid(3d68694d2a916584c81167585c707707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile090.png using Guid(3d68694d2a916584c81167585c707707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571a834916599295a53a469a6f205566') in 0.044340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile031.png
+  artifactKey: Guid(163eddc4cf7667b4dba12b9ab11d82d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile031.png using Guid(163eddc4cf7667b4dba12b9ab11d82d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a095680dc4870b772b75fa748561d1b') in 0.046757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile146.png
+  artifactKey: Guid(c4086d21bebc1c24a83a391ae26fb119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile146.png using Guid(c4086d21bebc1c24a83a391ae26fb119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622b1343b5bc1f6802684678bf6fca0d') in 0.040446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile178.png
+  artifactKey: Guid(24d8effcf2d6cc24d9b37fc5bea20a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile178.png using Guid(24d8effcf2d6cc24d9b37fc5bea20a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e838f7e05e37a587e3b37aeba5dd3b') in 0.039318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile219.png
+  artifactKey: Guid(4e70a0457427a694b850faa9565c908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile219.png using Guid(4e70a0457427a694b850faa9565c908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6d8e5ebacd74032a85078df8e50d62') in 0.043252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile221.png
+  artifactKey: Guid(fb1cd7c02b884694e902d0991f4dd527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile221.png using Guid(fb1cd7c02b884694e902d0991f4dd527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5234af10c5b5cde8b2db826433f38030') in 0.043475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile084.png
+  artifactKey: Guid(1ae7f27d02c6b2b4b8d242bcfd90361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile084.png using Guid(1ae7f27d02c6b2b4b8d242bcfd90361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7365e994b759bcc08c24356fe14bc9c') in 0.045964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile167.png
+  artifactKey: Guid(5a9ef9b2294157d489b595d0c8f4da87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile167.png using Guid(5a9ef9b2294157d489b595d0c8f4da87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e8803e17fe918b0999792c6072f72f') in 0.040956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile151.png
+  artifactKey: Guid(2d0a611fb8ecef14fbd30bfce95b43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile151.png using Guid(2d0a611fb8ecef14fbd30bfce95b43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d828413dad703ec337faada328835e') in 0.044455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile134.png
+  artifactKey: Guid(e8cf067313155c443a9c368a1873570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile134.png using Guid(e8cf067313155c443a9c368a1873570b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89123fe89b67ccaa0448452ee86ffbde') in 0.043239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile061.png
+  artifactKey: Guid(cc1c67ddea6ebd74a9444553066809f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile061.png using Guid(cc1c67ddea6ebd74a9444553066809f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5beaa52da92ed89284cba7cd72fba2a5') in 0.043583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile210.png
+  artifactKey: Guid(0cb3741f6248fc04b91bc960d154d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile210.png using Guid(0cb3741f6248fc04b91bc960d154d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0bd7eb991f543e730ce425deb4b329') in 0.043744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile169.png
+  artifactKey: Guid(4d0c9d69c806a7f42b3da9c51a6457a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile169.png using Guid(4d0c9d69c806a7f42b3da9c51a6457a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7db05b6455c78566a8f1771e88d7087') in 0.047711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile225.png
+  artifactKey: Guid(e5d68e8d1c50ec7418cff1d01a627288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile225.png using Guid(e5d68e8d1c50ec7418cff1d01a627288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0edf820a400632647b72c76df32e5a5') in 0.042459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile057.png
+  artifactKey: Guid(e72b046ebbbcb044898d26784cd70fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile057.png using Guid(e72b046ebbbcb044898d26784cd70fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff72a2686720313950e4fff26522821b') in 0.051696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile220.png
+  artifactKey: Guid(08db8fc15549282468ec0b9d46d41004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile220.png using Guid(08db8fc15549282468ec0b9d46d41004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc453ea3d3a133d88ca2f583bce72e6') in 0.047556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile058.png
+  artifactKey: Guid(607572cd71bea2a4ab45ab20f2e218c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile058.png using Guid(607572cd71bea2a4ab45ab20f2e218c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe433e1e1f53a33b9cdaef336af55ff9') in 0.047861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile067.png
+  artifactKey: Guid(5d196f5e81a91d84e9c206cb3c6c4220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile067.png using Guid(5d196f5e81a91d84e9c206cb3c6c4220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd5bcf673e73f9ef021f52408a670f5') in 0.047916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile187.png
+  artifactKey: Guid(2252b3b13b5421946a71102f70807a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile187.png using Guid(2252b3b13b5421946a71102f70807a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0e3c145dee3ca57a23cc828d26736d') in 0.046242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile080.png
+  artifactKey: Guid(869dc71bbfb8a064890ccc3f57540e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile080.png using Guid(869dc71bbfb8a064890ccc3f57540e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a73659c78745fec5077188720478424') in 0.045066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile217.png
+  artifactKey: Guid(10d3e74dd7c1abf4f9ed5d6fbc228055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile217.png using Guid(10d3e74dd7c1abf4f9ed5d6fbc228055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32cfc01cac3e95c65c9a1f75e76020a') in 0.045983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile109.png
+  artifactKey: Guid(4b771ea08e73d384c9eae3af025d10a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile109.png using Guid(4b771ea08e73d384c9eae3af025d10a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474228fc21581cddefef846d5afe8778') in 0.048702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile092.png
+  artifactKey: Guid(c554ae2857fbb174ba7c6f55a1ba79f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile092.png using Guid(c554ae2857fbb174ba7c6f55a1ba79f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094c97d0a30a9fe80c9e90d37003d135') in 0.050212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile002.png
+  artifactKey: Guid(ff7870e3acc180e4b83a387b8a448930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile002.png using Guid(ff7870e3acc180e4b83a387b8a448930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b93ccadba1b40cb7f52f82df2d7d51') in 0.040105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile069.png
+  artifactKey: Guid(9909ec98e166c9846bc05752252ee36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile069.png using Guid(9909ec98e166c9846bc05752252ee36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee1a056827253268c38329877852eee') in 0.046275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile096.png
+  artifactKey: Guid(9226fd245ac0f8449ba4c2a51ef2c2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile096.png using Guid(9226fd245ac0f8449ba4c2a51ef2c2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ea5dedcf15eba8f136e467d37f7108') in 0.043804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile117.png
+  artifactKey: Guid(9492975320a25de449d16c7f31979c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile117.png using Guid(9492975320a25de449d16c7f31979c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9b3c28dafcdc42e70f7dacf4966f28') in 0.047597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile128.png
+  artifactKey: Guid(8a431bdd9e7b8c441b6627357804ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile128.png using Guid(8a431bdd9e7b8c441b6627357804ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1867c32c436dd8d1507d75d9c35d5d6') in 0.042738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile105.png
+  artifactKey: Guid(e2eedcf16b9d7354cb57e1421614792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile105.png using Guid(e2eedcf16b9d7354cb57e1421614792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7765461e27075c6b5e7698acae085524') in 0.042846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile111.png
+  artifactKey: Guid(cfbbc75e7722de747a7420c2ad2d88b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile111.png using Guid(cfbbc75e7722de747a7420c2ad2d88b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2686afbf7ca7dc4fc8bb781fa4fbd829') in 0.042897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile218.png
+  artifactKey: Guid(60bb33d17433b804eaba37a299e307d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile218.png using Guid(60bb33d17433b804eaba37a299e307d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b83d61ebfcdc37e93a9795efc7847d') in 0.048872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile189.png
+  artifactKey: Guid(b6a04215a89ae854fbac416aec074a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_rpg-base/PNG/rpgTile189.png using Guid(b6a04215a89ae854fbac416aec074a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447cb27315fec8e8929f29902ae22cf') in 0.045299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 234.643803 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/Preview_KenneyNL.png
+  artifactKey: Guid(98292acdd537fac4cbd2e0be5567375e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/Preview_KenneyNL.png using Guid(98292acdd537fac4cbd2e0be5567375e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c74dc9e82f3b1308602daf601f62b2') in 0.062466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.694628 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_002.png
+  artifactKey: Guid(bea1b5fc50db3fb47b4244fad02a15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_002.png using Guid(bea1b5fc50db3fb47b4244fad02a15ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f39ba2b0d47f30f2a900100bd4fc548') in 0.056228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031235 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_005.png
+  artifactKey: Guid(efcef2836ce472d4c97f5fd1e7ed9ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_005.png using Guid(efcef2836ce472d4c97f5fd1e7ed9ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923eb10841ef5c7d63338f9aab260489') in 0.056471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020241 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_010.png
+  artifactKey: Guid(807d6c89259cb2f4ca3f1a9402de924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_010.png using Guid(807d6c89259cb2f4ca3f1a9402de924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11edb76c2d7111e70b1882d17fbbdf7') in 0.059144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_014.png
+  artifactKey: Guid(56356997194f0684994d79fa91bcec69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_014.png using Guid(56356997194f0684994d79fa91bcec69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580d4ca32adcfe91a410275e90b50381') in 0.048777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_016.png
+  artifactKey: Guid(1fb22370a5db98045bebbe383e3c0c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_016.png using Guid(1fb22370a5db98045bebbe383e3c0c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26caf1a5083d69e45a8da0915875c7ee') in 0.042481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_019.png
+  artifactKey: Guid(e0a3ec2bdbbc2464da695a2b789d96e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_019.png using Guid(e0a3ec2bdbbc2464da695a2b789d96e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7101bdd04f935653490b1b0fd0bd3f92') in 0.038787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_026.png
+  artifactKey: Guid(ecd402376913d6241ae9a42c11a8468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_026.png using Guid(ecd402376913d6241ae9a42c11a8468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d9d2fa4b7c7ac1163f3b9b09c54d80') in 0.036784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_027.png
+  artifactKey: Guid(a24b03995b15924428716db607bc3731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_027.png using Guid(a24b03995b15924428716db607bc3731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f93c680f3cb7af72950134581b3bde9') in 0.039362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_017.png
+  artifactKey: Guid(d0e0147b8d26219489517b76a0fca16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_017.png using Guid(d0e0147b8d26219489517b76a0fca16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3684b2b52500407e756fc7b529e84d7') in 0.045369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_033.png
+  artifactKey: Guid(30fd541b032e6a74e83a5f3a3dac2076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_033.png using Guid(30fd541b032e6a74e83a5f3a3dac2076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7e66c5b5940814842b8bc7012c9dc5') in 0.048283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_039.png
+  artifactKey: Guid(7ae1dba1a87ba634186a7f1c3437f7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_039.png using Guid(7ae1dba1a87ba634186a7f1c3437f7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4e4b481a9d248b98b4d199d3b35668') in 0.061301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_018.png
+  artifactKey: Guid(9a0846589fc5641458ce2fedc98a9aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_018.png using Guid(9a0846589fc5641458ce2fedc98a9aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131e26d25521207bd233ee2dfbdcf11e') in 0.053805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_038.png
+  artifactKey: Guid(8555f6712a41c6b4993ee7383ceecf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_038.png using Guid(8555f6712a41c6b4993ee7383ceecf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09681055ed56a4d4ebfdee4f29a3fbd') in 0.046567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_031.png
+  artifactKey: Guid(d51db87aedfc03e489d7cd3ad5c02cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_031.png using Guid(d51db87aedfc03e489d7cd3ad5c02cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc02d49d43faeb6e921fe015103283b3') in 0.050317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_021.png
+  artifactKey: Guid(a5d863a2db9783f42a2489efb25cb25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_021.png using Guid(a5d863a2db9783f42a2489efb25cb25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6712625752b8a9ad1b55979cbe573705') in 0.053621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_013.png
+  artifactKey: Guid(14684fc07c3439a438d1e11d8a597aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_013.png using Guid(14684fc07c3439a438d1e11d8a597aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faf2cb7852ea11621ce2a50248e91fe') in 0.050092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_025.png
+  artifactKey: Guid(553f9311ccb946049923f0862f387a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_025.png using Guid(553f9311ccb946049923f0862f387a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd19c7de7d82aebd289beb6488127f2') in 0.047801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_037.png
+  artifactKey: Guid(746d280a7b406a74f9b048a9b11e3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_037.png using Guid(746d280a7b406a74f9b048a9b11e3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbfd753a155cf433104ca7769f93814') in 0.046936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_040.png
+  artifactKey: Guid(ad18495d8034a2c45ac75e6ce3a87068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_040.png using Guid(ad18495d8034a2c45ac75e6ce3a87068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ef3e3e334d3770195d79177d6c561f') in 0.048363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_023.png
+  artifactKey: Guid(8797bbf344146064cbef14b82cf077ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_023.png using Guid(8797bbf344146064cbef14b82cf077ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ea1f282be2db26dd7fed4909b22245') in 0.051553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.095135 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_043.png
+  artifactKey: Guid(9b89f2619f75c284c9b0860028350fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_043.png using Guid(9b89f2619f75c284c9b0860028350fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7a73ec2b68c7bfdec8aaa593e67dc6') in 0.052457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_046.png
+  artifactKey: Guid(6db3b5f7ebb272d4cac8ac152d572917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_046.png using Guid(6db3b5f7ebb272d4cac8ac152d572917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b65cb1e77542a4761e3203a7bc05fb') in 0.049634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_047.png
+  artifactKey: Guid(be7d836cc57fab84cb236062a13e9e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_047.png using Guid(be7d836cc57fab84cb236062a13e9e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143688caf8529f41614e97751ef9dba1') in 0.050351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_049.png
+  artifactKey: Guid(59a274d300ea0ed469179d1e452f99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_049.png using Guid(59a274d300ea0ed469179d1e452f99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d2ff13b21c930e4941e44c861eedb7') in 0.045650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_050.png
+  artifactKey: Guid(42d558fcd3901db468cedd53d850f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_050.png using Guid(42d558fcd3901db468cedd53d850f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe1c82ef2b677b18a0333d772732540') in 0.049367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_056.png
+  artifactKey: Guid(0a9ca8f723d062b429fe46545df7101a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_056.png using Guid(0a9ca8f723d062b429fe46545df7101a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46822375cbc357601afb47f50c0597ec') in 0.052011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_059.png
+  artifactKey: Guid(9392e4ac28376ea4c98c8206e4844681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_059.png using Guid(9392e4ac28376ea4c98c8206e4844681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54d8f8bd660b8223dd5b65f54d15a4') in 0.048627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_057.png
+  artifactKey: Guid(e48e28e693ecdbb40a33f917abb136d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_057.png using Guid(e48e28e693ecdbb40a33f917abb136d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb9f32d8f2fe7f7193f1a711facb4b8') in 0.052290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_058.png
+  artifactKey: Guid(e61dd32370ec8da468b96f9bef046e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_058.png using Guid(e61dd32370ec8da468b96f9bef046e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2fb52be06eb4c44eb0a4767f2827a8') in 0.052945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_052.png
+  artifactKey: Guid(4a9da9e8e9c57a84882090341a953961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_052.png using Guid(4a9da9e8e9c57a84882090341a953961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13e594435d804a5ad13d0e9304aa454') in 0.052339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.592667 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_063.png
+  artifactKey: Guid(fd9e8a3f026b2d4458e9385675d1d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_063.png using Guid(fd9e8a3f026b2d4458e9385675d1d71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708453fc6a8c47344cb211e1be375bf2') in 0.050847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_065.png
+  artifactKey: Guid(05902aadccebe5d41a9e4516dce920a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_065.png using Guid(05902aadccebe5d41a9e4516dce920a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f9a4ef7290c213084975f51fa34ba7') in 0.051909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_066.png
+  artifactKey: Guid(02ff6067064481949880d31c0eb93d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_066.png using Guid(02ff6067064481949880d31c0eb93d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a79d023528ce6145acdd24cc78c8d4') in 0.043829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_068.png
+  artifactKey: Guid(deba909fae0a46549895af2ca163c3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_068.png using Guid(deba909fae0a46549895af2ca163c3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b16340fcbfe2a156f9bd68236d26424') in 0.049849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_071.png
+  artifactKey: Guid(5f63135f5c4aeb34d83aef7270009142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_071.png using Guid(5f63135f5c4aeb34d83aef7270009142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ec5f2ceefb38fec64e21d4fa32b93c') in 0.042461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.451543 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_073.png
+  artifactKey: Guid(95fbde297ae151e40add11b61d2bb11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_073.png using Guid(95fbde297ae151e40add11b61d2bb11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83362536e10ddfd9cab401ab3f56943') in 0.056827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_074.png
+  artifactKey: Guid(bbe005070691d604681dbc56c5f09a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_074.png using Guid(bbe005070691d604681dbc56c5f09a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1941a8766fa36248da378b84ef225a') in 0.044356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_080.png
+  artifactKey: Guid(b6eca820d46212f4480ebe56408398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_080.png using Guid(b6eca820d46212f4480ebe56408398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65238b45c15995a319c51b9e205e7906') in 0.057659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_081.png
+  artifactKey: Guid(890e7a733974191439e8ee8f7aba151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_081.png using Guid(890e7a733974191439e8ee8f7aba151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b154a0fdc17be97b58291cdcecb9fc10') in 0.051213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_079.png
+  artifactKey: Guid(0d5bd8fee2b5ffe4cb6b89738f0f640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_079.png using Guid(0d5bd8fee2b5ffe4cb6b89738f0f640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc249bfc03171410c35c066608ca6a4e') in 0.050516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.515333 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_083.png
+  artifactKey: Guid(2c212bab9eb6de64b91c4c42bec8e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_083.png using Guid(2c212bab9eb6de64b91c4c42bec8e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a9fe1890c8d14ad55d411127f2e6b7') in 0.048156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_086.png
+  artifactKey: Guid(068e0d6844e84f44cb45ad731354fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_086.png using Guid(068e0d6844e84f44cb45ad731354fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fdb64d1fde975ea3443437dbc42ec3') in 0.045909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_088.png
+  artifactKey: Guid(9c5fb42de4d6abf4db6aecf9a39c9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_088.png using Guid(9c5fb42de4d6abf4db6aecf9a39c9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6558961c12f688d52bbf682cfc59a84') in 0.054854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_084.png
+  artifactKey: Guid(512b14565f1cf094491fbc5c2c51378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_084.png using Guid(512b14565f1cf094491fbc5c2c51378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83be514da3b7c7542602ca5ef7074191') in 0.050182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_090.png
+  artifactKey: Guid(d00f45bb3057ccf4598e90d4d55a3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_090.png using Guid(d00f45bb3057ccf4598e90d4d55a3faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b61da6b9f1c88096fe6d951b30da97') in 0.050694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.435013 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_093.png
+  artifactKey: Guid(627acf9319ba5624b8369641094cc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_093.png using Guid(627acf9319ba5624b8369641094cc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01d1e515aa4197644b362812d5d6a13') in 0.052844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_097.png
+  artifactKey: Guid(12dcb477a6fb3f8428e6d75cdc3d0831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_097.png using Guid(12dcb477a6fb3f8428e6d75cdc3d0831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef5f442a982a7c409b38f35c6097c30') in 0.046794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_100.png
+  artifactKey: Guid(9cd5f98a7096e0d4197fbd5bd2f2263a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_100.png using Guid(9cd5f98a7096e0d4197fbd5bd2f2263a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395cf0b64630178b5b560371fc8a1d56') in 0.045941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_102.png
+  artifactKey: Guid(d544c938bd1be1b46b7da8a2912d8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_102.png using Guid(d544c938bd1be1b46b7da8a2912d8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8527f9b8ecc73ea21b0c227379cac87') in 0.047522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_095.png
+  artifactKey: Guid(4dc8b24057f58c14da295b3ffceef68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_095.png using Guid(4dc8b24057f58c14da295b3ffceef68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e25e10b05b7ebb6d016a671bc5d635') in 0.048293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_110.png
+  artifactKey: Guid(d644cab5f488d724fb2e76cf9ca9f922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_110.png using Guid(d644cab5f488d724fb2e76cf9ca9f922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c887aca37de4447b065b9d7379c9a5b') in 0.047817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_112.png
+  artifactKey: Guid(05ef7f39d8a46824eb7ddc36c8982851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_112.png using Guid(05ef7f39d8a46824eb7ddc36c8982851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd969a6d46e2e07ea6691dde35f556304') in 0.046215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_114.png
+  artifactKey: Guid(82cd878aae9f40e4bb73a8b4623cd295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_114.png using Guid(82cd878aae9f40e4bb73a8b4623cd295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34c58830ed8f99a808635e6809e95be') in 0.051161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_118.png
+  artifactKey: Guid(8926e52c20d2a384bab543941a868884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_118.png using Guid(8926e52c20d2a384bab543941a868884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96697e0b6c1c60918d713dc86e14ffdd') in 0.051553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_098.png
+  artifactKey: Guid(6507e56db7f1dca4b9c7bf7e9eb239d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_098.png using Guid(6507e56db7f1dca4b9c7bf7e9eb239d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883381c3feb9b0b880476d0e17864545') in 0.050893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_117.png
+  artifactKey: Guid(dad2c3047ce6c4a43bbe675d7f17ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_117.png using Guid(dad2c3047ce6c4a43bbe675d7f17ab86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4142b6bbe406a7bfad3de601da08a91c') in 0.049817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_108.png
+  artifactKey: Guid(c1e8431c9902b844a8abd2b9446ac675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_108.png using Guid(c1e8431c9902b844a8abd2b9446ac675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3564df53e48b810d50dec00beab0e4b3') in 0.055513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_109.png
+  artifactKey: Guid(c49fa92bc402308409fa57e5a8d8f7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_109.png using Guid(c49fa92bc402308409fa57e5a8d8f7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8d0d5648ac6c22ea8993bfe56791de') in 0.056362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_105.png
+  artifactKey: Guid(065a5bf8e08afc048bb1e07c9de7312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_105.png using Guid(065a5bf8e08afc048bb1e07c9de7312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc85438a70a7f56084f2aee53cbd12a') in 0.051523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_120.png
+  artifactKey: Guid(6503c3c78bd2c8043b3680b8533d6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_120.png using Guid(6503c3c78bd2c8043b3680b8533d6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941ba34d65a75d2a697319e7563eecff') in 0.049961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.195571 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_123.png
+  artifactKey: Guid(f4ff94138a9975749b7ea09db35d47bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_123.png using Guid(f4ff94138a9975749b7ea09db35d47bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c698aa153a1e37a36918ed72844b7574') in 0.051424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_126.png
+  artifactKey: Guid(9b3cb2ac85a1d2347b1969ea69d2f4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_126.png using Guid(9b3cb2ac85a1d2347b1969ea69d2f4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5651ec4b70b98d00bb5ca9149cd9f9') in 0.051068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_124.png
+  artifactKey: Guid(7e63d0b270443e44db0b974c9b2fb65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_124.png using Guid(7e63d0b270443e44db0b974c9b2fb65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d36837a21742166621744b2ba3fe6') in 0.053939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_133.png
+  artifactKey: Guid(7207bc0db092bc5468745465028e192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_133.png using Guid(7207bc0db092bc5468745465028e192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db15e35a2778fed837134cb4501a16c6') in 0.049567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_135.png
+  artifactKey: Guid(ee24dea541dea344a80682d8a2514db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_135.png using Guid(ee24dea541dea344a80682d8a2514db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e7bb2362e451093f6a3ba380cbd82') in 0.045572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_132.png
+  artifactKey: Guid(7a6ed223abc50e44dada356242888be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_132.png using Guid(7a6ed223abc50e44dada356242888be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68782eafd8cb4cb4d7cf47950fefa45') in 0.062984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_140.png
+  artifactKey: Guid(cf02a6dc4f0bad84eb5a4872dee95029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_140.png using Guid(cf02a6dc4f0bad84eb5a4872dee95029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9a2b820cc64c87fa9c17dc92bc5a23') in 0.046316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_147.png
+  artifactKey: Guid(3dbc9b89a91085f4eb07b52b4e757d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_147.png using Guid(3dbc9b89a91085f4eb07b52b4e757d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90480c6e8e41cc497e94c36e783e5118') in 0.051610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_151.png
+  artifactKey: Guid(6d7260300335b704c98ef19086ae9e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_151.png using Guid(6d7260300335b704c98ef19086ae9e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dce8a7d3047dc256819b47c8cc9550f') in 0.051468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_130.png
+  artifactKey: Guid(74287ecebe8c62c489bddc5d27c48f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_130.png using Guid(74287ecebe8c62c489bddc5d27c48f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168832d2f515515220f84dcd5d056f94') in 0.045109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_145.png
+  artifactKey: Guid(0fe7867be3c68414694f822f1d07d1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_145.png using Guid(0fe7867be3c68414694f822f1d07d1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e126bb72e5cf54654af7bb5c93a933') in 0.048445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_136.png
+  artifactKey: Guid(21df0db9aadf910438f718dc606f1d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_136.png using Guid(21df0db9aadf910438f718dc606f1d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eb1a074a8b4fb7ac49a52da9575f2f') in 0.048085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_127.png
+  artifactKey: Guid(34cd167cc96dcf7458d16466598505fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_127.png using Guid(34cd167cc96dcf7458d16466598505fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fabee5c43e16f4d45580e31eec83ee') in 0.045981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_153.png
+  artifactKey: Guid(814ba3293547aea49994399b8c05352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_153.png using Guid(814ba3293547aea49994399b8c05352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57522986981c0417a0048097d6c40a77') in 0.044661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_152.png
+  artifactKey: Guid(a5871822344068144be15568f560dc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_152.png using Guid(a5871822344068144be15568f560dc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba4cba92a0c645c0c8f38734f1c3659') in 0.049508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_159.png
+  artifactKey: Guid(9f85f6bf43b9ed84f8edd4adbf0fb0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_159.png using Guid(9f85f6bf43b9ed84f8edd4adbf0fb0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d5a1a424bb1d96a1bd88b1e807933d') in 0.045974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_162.png
+  artifactKey: Guid(cb4e33edf986a3749a67611e5b0036f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_162.png using Guid(cb4e33edf986a3749a67611e5b0036f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd28ae834c47d69dd8bcc825d6235a2') in 0.049925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_158.png
+  artifactKey: Guid(01dfbf651cead5b48b40025ee5beebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_158.png using Guid(01dfbf651cead5b48b40025ee5beebb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366078c063742bd256afae1732e8f340') in 0.049877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_146.png
+  artifactKey: Guid(d6b6069a6c1558b48bf581e88d2704bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_146.png using Guid(d6b6069a6c1558b48bf581e88d2704bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083c3c439d7e13a41ff4e015bbb58bae') in 0.050830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_163.png
+  artifactKey: Guid(69816d4192b96174bb6942d2d6838407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_163.png using Guid(69816d4192b96174bb6942d2d6838407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f09807013efedb5d6e4933de809a110') in 0.052731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_141.png
+  artifactKey: Guid(48fb5c993c435c04796703e99a0d9900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/Colored/genericItem_color_141.png using Guid(48fb5c993c435c04796703e99a0d9900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd72225dfab68efec867ea3c7067e318') in 0.046368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.488196 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_003.png
+  artifactKey: Guid(73c85b4d89a323f44830fab65063135a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_003.png using Guid(73c85b4d89a323f44830fab65063135a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d67e180b017eaafbd00f494e291084') in 0.063398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_005.png
+  artifactKey: Guid(ae5242d6e895fca489eb3ee708b49495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_005.png using Guid(ae5242d6e895fca489eb3ee708b49495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91543e8bfc9abc4b77b9dbd5fdedbc9') in 0.044520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_010.png
+  artifactKey: Guid(ec0d9647721f7ba41a874f6b74318901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_010.png using Guid(ec0d9647721f7ba41a874f6b74318901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f778d12b43b2610c20ece3c4e30ee5') in 0.045916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_011.png
+  artifactKey: Guid(cf8cb391e00b47f42a8773a49dfb69f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_011.png using Guid(cf8cb391e00b47f42a8773a49dfb69f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a77d7c49fd2b48529ff25df916b730f') in 0.044249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_017.png
+  artifactKey: Guid(e98b3ac2c2952b1468f9b03dc2a80e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_017.png using Guid(e98b3ac2c2952b1468f9b03dc2a80e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26d629174fb33b3630be2d1977ecfcc') in 0.047753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_022.png
+  artifactKey: Guid(2969ca582609c534cbf66994260f58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_022.png using Guid(2969ca582609c534cbf66994260f58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5eaceb368aa8e63673d8609beff2561') in 0.044947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_026.png
+  artifactKey: Guid(ef6507703b1727441a41d7b28e3860e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_026.png using Guid(ef6507703b1727441a41d7b28e3860e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe96641f10b898f56a7e2ca90d16172') in 0.049801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_028.png
+  artifactKey: Guid(d1f0c884a5327b142a1515e3f4d33ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_028.png using Guid(d1f0c884a5327b142a1515e3f4d33ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6083fb54de133855f04c9c3a84f3c42d') in 0.046059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_034.png
+  artifactKey: Guid(118bb5d76dedfdb48b6c5e9593338728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_034.png using Guid(118bb5d76dedfdb48b6c5e9593338728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed12afa854a5a3e6897c723730e5a82f') in 0.051439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_036.png
+  artifactKey: Guid(67eca3bf531c4fd458f059d5cdc39390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_036.png using Guid(67eca3bf531c4fd458f059d5cdc39390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330feeb080c53c3a9c7afe48d5613c5a') in 0.043297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_041.png
+  artifactKey: Guid(c021c8946ff691848bac0a08d714dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_041.png using Guid(c021c8946ff691848bac0a08d714dd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9565d362efa67b468cdf2b09a1c96a4b') in 0.051130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_007.png
+  artifactKey: Guid(76574b6a8d9bb2044a678656f9f07ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_generic-items/PNG/White/genericItem_white_007.png using Guid(76574b6a8d9bb2044a678656f9f07ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1217ba957fb10e778a4841bf429992e5') in 0.041815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.783875 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/space_inlay.png
+  artifactKey: Guid(e2a383cc22cfd894a8fa041ab87f060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/space_inlay.png using Guid(e2a383cc22cfd894a8fa041ab87f060e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe24daf147926e64874fe1c4609ddadd') in 0.050490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.014698 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Ancient/brown_pressed.png
+  artifactKey: Guid(e98b05ad1b232884da526c9aad7f634e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Ancient/brown_pressed.png using Guid(e98b05ad1b232884da526c9aad7f634e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d047283bf866e12602097ea45cdc91') in 0.047380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Ancient/tan.png
+  artifactKey: Guid(044718207cb1d3d43b052d32d7adb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Ancient/tan.png using Guid(044718207cb1d3d43b052d32d7adb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3710520f1e31140ee3d0bd7ca8159ed0') in 0.046764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003262 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Ancient/white_inlay.png
+  artifactKey: Guid(4d7441f1448f7c541b41baaa5cb38747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Ancient/white_inlay.png using Guid(4d7441f1448f7c541b41baaa5cb38747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104e3356353956a2a048a7a692ad212a') in 0.047327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.984393 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Outline/green.png
+  artifactKey: Guid(39032912b517f144aa908a10415ec62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Outline/green.png using Guid(39032912b517f144aa908a10415ec62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3882be5b018c051792cfa647b5eebc') in 0.053097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Outline/yellow.png
+  artifactKey: Guid(634edbe91ed89d74d8038d4c94238cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Outline/yellow.png using Guid(634edbe91ed89d74d8038d4c94238cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe096364fde0c247dd80b84da7af05e') in 0.051309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 55.418183 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Colored/green.png
+  artifactKey: Guid(a43eb788342d8ac40a9f923b2e1ae0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Colored/green.png using Guid(a43eb788342d8ac40a9f923b2e1ae0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c46822ea8d5605e88e2eb9ff9d8538') in 0.048785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002361 seconds.
+  path: Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Colored/red.png
+  artifactKey: Guid(ccd567da66c0eb1448b8dc485adb4ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_pixel-ui-pack/9-Slice/Colored/red.png using Guid(ccd567da66c0eb1448b8dc485adb4ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6716536e9d4ffcc0b4875c608bec0') in 0.046046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
