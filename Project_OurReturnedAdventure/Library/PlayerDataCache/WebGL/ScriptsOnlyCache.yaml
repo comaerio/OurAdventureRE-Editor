@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Character_MoveMobile
+    - Character_Skins
     - MobileJoystickUI
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -23,7 +24,9 @@ ScriptsOnlyBuild:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceManagerSettingsEditor
     Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderLoader
     - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -34,6 +37,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -98,25 +103,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 614}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 16674}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 18108}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 18390}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 19688}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 21080}
     - Class: 114
-      Script: {instanceID: 7482}
+      Script: {instanceID: 22528}
     - Class: 114
-      Script: {instanceID: 8750}
+      Script: {instanceID: 23798}
     - Class: 114
-      Script: {instanceID: 9270}
+      Script: {instanceID: 24318}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 24764}
     - Class: 114
-      Script: {instanceID: 9752}
+      Script: {instanceID: 24800}
+    - Class: 114
+      Script: {instanceID: 24838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -160,7 +167,7 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 6581a65de4dc1a3cdb42f34bdb8b48c1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Character_MovePC
@@ -1360,7 +1367,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 3ffc61c3482621c1e33e42dc6a548787
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Character_Skins
@@ -1511,4 +1518,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/Maps/MainTown01.unity
-  playerPath: "C:/Users/ohmar/OneDrive/\uBB38\uC11C/OurAdventureRE_EXE"
+  playerPath: "C:/Users/ohmar/OneDrive/\uBB38\uC11C/Our-Adventure-Client/OurAdventureRE_EXE"
