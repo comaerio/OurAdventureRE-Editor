@@ -15,7 +15,7 @@ C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49752
+55244
 Successfully changed project path to: C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
 C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/unityproject/OurAdventureRE/Project_OurReturnedAdventure
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26572] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 3567200952 [EditorId] 3567200952 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19248] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 2532843503 [EditorId] 2532843503 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26572] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 3567200952 [EditorId] 3567200952 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19248] Host "[IP] 26.180.130.95 [Port] 0 [Flags] 2 [Guid] 2532843503 [EditorId] 2532843503 [Version] 1048832 [Id] WindowsEditor(7,TKLevono) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 68.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 33.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,61 +70,539 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031548 seconds.
-- Loaded All Assemblies, in  0.965 seconds
+Registered in 0.012843 seconds.
+- Loaded All Assemblies, in  0.523 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 755 ms
+Android Extension - Scanning For ADB Devices 399 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.499 seconds
-Domain Reload Profiling: 2456ms
-	BeginReloadAssembly (313ms)
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1351ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (176ms)
-	LoadAllAssembliesAndSetupDomain (351ms)
-		LoadAssemblies (306ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (153ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (344ms)
-			TypeCache.Refresh (341ms)
-				TypeCache.ScanAssembly (310ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (203ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1500ms)
+	FinalizeReload (832ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1358ms)
+		SetupLoadedEditorAssemblies (752ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1021ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (554ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (110ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile/RuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation/GridInformation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile/AnimatedTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 ========================================================================
 Worker process is ready to serve import requests
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile/RuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation/GridInformation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile/AnimatedTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.050 seconds
-Refreshing native plugins compatible for Editor in 31.49 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.349 seconds
+Refreshing native plugins compatible for Editor in 18.93 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile/RuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation/GridInformation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile/AnimatedTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 1912ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (1001ms)
+		LoadAssemblies (1053ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (65ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (567ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 19.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (51.9 MB). Loaded Objects now: 5205.
+Memory consumption went from 149.2 MB to 97.3 MB.
+Total: 7.751400 ms (FindLiveObjects: 0.444300 ms CreateObjectMapping: 0.181800 ms MarkObjects: 6.946700 ms  DeleteObjects: 0.177100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 0f406f4b09f3b7bd1bfd8f867df2e978 -> 
+  custom:scripting/monoscript/fileName/UnityTestAssemblyRunner.cs: 6329fd25aa4b3ce344b8f9506a5c2047 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/UdpSocket.cs: 7555d065f81d23e6604acb91cf79ddd6 -> 
+  custom:scripting/monoscript/fileName/ITestPlayerBuildModifier.cs: fe113c86bde5fdad424c8cc5e51fe0a4 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: b6cad195ed4890ee7aed8c4de2807157 -> 
+  custom:scripting/monoscript/fileName/IPrebuildSceneSetup.cs: c89711320cb5af11897ec50fd61d4419 -> 
+  custom:scripting/monoscript/fileName/RunData.cs: 772bee3d6504258eed6027a2ae076850 -> 
+  custom:scripting/monoscript/fileName/CategoryFilterExtended.cs: fc9bf6f795e045112c18a4c1343c1ae1 -> 
+  custom:scripting/monoscript/fileName/ResultsSavingCallbacks.cs: 96b4b28711ac58ce3dc199f3f7371922 -> 
+  custom:scripting/monoscript/fileName/RerunCallbackData.cs: 4e0f854372c4476a9269ddc9aa7c8edb -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AssetsDatabaseHelper.cs: e690d63c7b932a5efaeaf8c476198e75 -> 
+  custom:scripting/monoscript/fileName/TestLauncherBase.cs: c78237b225a855d3af10df4cd8d6a1b2 -> 
+  custom:scripting/monoscript/fileName/EditorAssembliesProxy.cs: ef0f2d44f3e723650bf58ba30866667b -> 
+  custom:scripting/monoscript/fileName/PostbuildCleanupAttributeFinder.cs: a060814a414a9bab17671800d815861d -> 
+  custom:scripting/monoscript/fileName/QuaternionEqualityComparer.cs: 0787e0a336d915c2829c2f55fd970a0d -> 
+  custom:scripting/monoscript/fileName/PlaymodeTestsController.cs: 59c9d4597d46ecf4c6fbc8f49c64d0b9 -> 
+  custom:scripting/monoscript/fileName/FloatEqualityComparer.cs: 6ddc5d5b0944c660e6b695f37c9febc8 -> 
+  custom:scripting/monoscript/fileName/ITestAdaptor.cs: 1f6228260995615097fc339d08bee2f4 -> 
+  custom:scripting/monoscript/fileName/RequirePlatformSupportAttribute.cs: 6918694e41aa1ffd5ee72bd04646d4bb -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: b9ea3ff0565ae2955ea8f15dd6e578d4 -> 
+  custom:scripting/monoscript/fileName/ResultSummarizer.cs: fcfdcb2adeeb82cb8f411b44b44abdb0 -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultDataFactory.cs: 875f30f4d57949231d64836d9e348a72 -> 
+  custom:scripting/monoscript/fileName/OuterUnityTestActionCommand.cs: 36c13d7d2a2c5c2f372e7b1c0cc06d4d -> 
+  custom:scripting/monoscript/fileName/FileUtility.cs: 2ac32d1be3995576c010e03a17edbd93 -> 
+  custom:scripting/monoscript/fileName/TestJobDataHolder.cs: 2c9edeeac80ff44e86cac8087411d260 -> 
+  custom:scripting/monoscript/fileName/UnityTestAttribute.cs: a53f050fb661d50bb6c962963a554f8e -> 
+  custom:scripting/monoscript/fileName/TestListTreeViewGUI.cs: bf873c97e960a33b0be65a5b638e7ff5 -> 
+  custom:scripting/monoscript/fileName/TestListCache.cs: ff7c7e6ac29ad86c5fe33a64ed0d2f4f -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e95044eb94149eee30f5192e36c02104 -> 
+  custom:scripting/monoscript/fileName/ExceptionEventArgs.cs: 27cb4c00a4137b184e01164606c88685 -> 
+  custom:scripting/monoscript/fileName/EditModeRunnerCallback.cs: 8a8dedaa2bec26f26744df4ec8e2f191 -> 
+  custom:scripting/monoscript/fileName/EnterPlayMode.cs: c730bf9ff77514bb260ba9933378e49c -> 
+  custom:scripting/monoscript/fileName/ITestSuiteModifier.cs: 4374b14ce25f3e6c8b983b3d579e38b4 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: 9ebe337aca2d71ac02fccc5c886e0668 -> 
+  custom:scripting/monoscript/fileName/UnityTestMethodCommand.cs: ccfa8ff8b49ded2664d646e8ee3d5ff4 -> 
+  custom:scripting/monoscript/fileName/Filter.cs: 935824dbebf762a19f2d4c4751625fe2 -> 
+  custom:scripting/monoscript/fileName/TestJobRunner.cs: 1c3d9f2bfcdac33a01c4bb25c392ab4f -> 
+  custom:scripting/monoscript/fileName/TestRunnerCallback.cs: 61231fce5590e38bfc5e9165e9803d8b -> 
+  custom:scripting/monoscript/fileName/IRemoteTestResultDataFactory.cs: 75d430448dca0118dc834f9aa964be1e -> 
+  custom:scripting/monoscript/fileName/CompositeWorkItem.cs: bc884a89fde61fa75209209a03bbd836 -> 
+  custom:scripting/monoscript/fileName/TestRunnerUIFilter.cs: 15cddad256d0a7abe9cb58af110bbb72 -> 
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 66cf30c0372dc35aea960f71af56ff8a -> 
+  custom:scripting/monoscript/fileName/RunFinishedData.cs: a22f15c3a79d1f15ccc31ec29ab37874 -> 
+  custom:scripting/monoscript/fileName/PerformUndoTask.cs: f38e53873dc9c7e638622dda18102b41 -> 
+  custom:scripting/monoscript/fileName/FailCommand.cs: e0622be95cb9f4c04ff53066589d6d7e -> 
+  custom:scripting/monoscript/fileName/UnityTearDownAttribute.cs: d90d4ba0821a80f48bd6cec8eab8964f -> 
+  custom:scripting/monoscript/fileName/ITestRunnerApi.cs: a476c74c9cbf5732bdfc8c88b9702476 -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultReciever.cs: 3396dcbdb7cfcd933b2182fbc1532e1a -> 
+  custom:scripting/monoscript/fileName/TestPlatform.cs: 63c69f9b78d9a1c2cdf167569fd572b6 -> 
+  custom:scripting/monoscript/fileName/VisualStudioIntegration.cs: f9e623c49f9f20ea97a4519aa48d72d4 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RemotePlayerTestController.cs: a065d8dd9dff07ee3c40c0e473a65f06 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: d44ce07d40dcd4d066b6c1c8d08f3519 -> 
+  custom:scripting/monoscript/fileName/Vector4EqualityComparer.cs: 998bf018f3e79a3b4501bebf13133ef3 -> 
+  custom:scripting/monoscript/fileName/PlayModeTestListGUI.cs: 9528035223f9376ea8c5bf32da2d30c1 -> 
+  custom:scripting/monoscript/fileName/Image.cs: 4bdb6020842dc54a8e0a23ee7fb842e6 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ExitPlayMode.cs: f2eb63cb1a92bddb334eb5c2d75abc43 -> 
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 420027d2a6ccaf7376f849b0f965edcd -> 
+  custom:scripting/monoscript/fileName/EditorLoadedTestAssemblyProvider.cs: 406b39f61e53aa4b6c435e30af6b5276 -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: e49393bed9b27f8092372b1c93fd8ad8 -> 
+  custom:scripting/monoscript/fileName/IStateSerializer.cs: 2c22f7cb714163eee04bfe4b72ec4957 -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultData.cs: 68a2b51f8872b9ef697b2155d9835735 -> 
+  custom:scripting/monoscript/fileName/Cli.cs: d287e08b50f2cb135aa4d7f8e01b7ef9 -> 
+  custom:scripting/monoscript/fileName/UnityTestProtocolListener.cs: 0d4d2ab58d3a081f00c0f200ee8696be -> 
+  custom:scripting/monoscript/fileName/ProjectPart.cs: e09789f5d21ec839c23f3a2c8c340a5a -> 
+  custom:scripting/monoscript/fileName/FileIO.cs: e12d7b1846fe00e4e229609939e0062b -> 
+  custom:scripting/monoscript/fileName/IAssemblyLoadProxy.cs: 10a2bd4f9f1d29ac107ff7e510533c16 -> 
+  custom:scripting/monoscript/fileName/MessageEventArgs.cs: 528473bbcee3623fe954627c6bfadd2e -> 
+  custom:scripting/monoscript/fileName/UnityTestProtocolStarter.cs: e4b107bc354fd6dcbd62420da6500b7c -> 
+  custom:scripting/monoscript/fileName/RuntimeTestLauncherBase.cs: 9c570bd0d91da3e5211e4436ad92314b -> 
+  custom:scripting/monoscript/fileName/SolutionProperties.cs: ab8751e49ae2f3d9994444a0a38619bd -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: ff94f6973aa3f0db280f3ed0b7577e48 -> 
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: 39a21c4f5e351b9b4a2916e800641a4a -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 651bbc6653e509037fd83f80aa48fad7 -> 
+  custom:scripting/monoscript/fileName/IFileIO.cs: d1715877724f6e7813b95bae6fbc24d5 -> 
+  custom:scripting/monoscript/fileName/Utils.cs: 40c528c300bfc0733192292a788cb076 -> 
+  custom:scripting/monoscript/fileName/EditModeLauncher.cs: 9a2b5bcdc6140673378e5f8105411606 -> 
+  custom:scripting/monoscript/fileName/MonoBehaviourTest.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CoroutineTestWorkItem.cs: 8a69ee5c1adc29acc0a66cb7df14cbcf -> 
+  custom:scripting/monoscript/fileName/TestActionCommand.cs: 753f99c04dd69dc2a43030237870dd1f -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 7c3150a04cd2de8ef9bdd48a0f99701a -> 
+  custom:scripting/monoscript/fileName/IMonoBehaviourTest.cs: 93dca3fac2d68012529173d3e7bc10a2 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TestRunnerApi.cs: c95fe169deea2b7a18c185e8b5613c7e -> 
+  custom:scripting/monoscript/fileName/ResultsWriter.cs: 746214782064f32efde31c48d7caa76f -> 
+  custom:scripting/monoscript/fileName/GuiHelper.cs: 7bbb51d455f8994ae6185c7dee04068a -> 
+  custom:scripting/monoscript/fileName/LuminPlatformSetup.cs: e65a295a4e58fc042cc74afa9243a080 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: 25c8ce1c1ecf3aba3903da1187b88166 -> 
+  custom:scripting/monoscript/fileName/BuildActionTaskBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ConditionalIgnoreAttribute.cs: 9f2f3d4c6b56d5f470ccdd0e1820d51b -> 
+  custom:scripting/monoscript/fileName/TestBuildAssemblyFilter.cs: 056870da734fd8ecf77d00737a22149f -> 
+  custom:scripting/monoscript/fileName/ITestRunnerListener.cs: d52675266925b8e603f210be3981d59b -> 
+  custom:scripting/monoscript/fileName/EditorAssemblyWrapper.cs: 8682dbb48030d53c622cd194bfa9e87d -> 
+  custom:scripting/monoscript/fileName/Solution.cs: 8bc97d0abd509f39b67b3a5bbac1b9a1 -> 
+  custom:scripting/monoscript/fileName/TestMustExpectAllLogsAttribute.cs: cdf1c75549affd080e0ddbde5bcb7c34 -> 
+  custom:scripting/monoscript/fileName/BaseDelegator.cs: d270baecbc007d1328bc5c9991d1dea9 -> 
+  custom:scripting/monoscript/fileName/TestRunnerCallbacks.cs: 5627cb9f4ed769fba607b0cab8e9e63d -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4ddd2581343451de6f696adaf8c0958f -> 
+  custom:scripting/monoscript/fileName/TestSettings.cs: d583ccee803a035f2d53ba29374aac19 -> 
+  custom:scripting/monoscript/fileName/IUtpMessageReporter.cs: e8e6a62b6032a5642706a62156dd8314 -> 
+  custom:scripting/monoscript/fileName/TestRunCallbackListener.cs: 15fa13086a2949901b1e4a3584b83cd8 -> 
+  custom:scripting/monoscript/fileName/IOuterUnityTestAction.cs: 58e7f8b884a5d88e319b8f448f29bfdb -> 
+  custom:scripting/monoscript/fileName/TestResultRendererCallback.cs: 215106b260625bb3e26681b849d9307d -> 
+  custom:scripting/monoscript/fileName/RequireApiProfileAttribute.cs: 4cce4894a0d08ef40fd237b8e50d1caa -> 
+  custom:scripting/monoscript/fileName/SynchronousFilter.cs: b84da53d6d10348793b3683f19a6d4b3 -> 
+  custom:scripting/monoscript/fileName/CleanupVerificationTask.cs: 12e81b196e7eac521f1ae8e0411b3d28 -> 
+  custom:scripting/monoscript/fileName/LegacyEditModeRunTask.cs: 2b5f09ef7f63773ca676d71969800516 -> 
+  custom:scripting/monoscript/fileName/IEditorCompilationInterfaceProxy.cs: b1e49de3ac2ed1feea91c5f6846d6e49 -> 
+  custom:scripting/monoscript/fileName/IErrorCallbacks.cs: fd7a49712e8a919d38dd0fddef8872df -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 93e7c36b8be60b7055550adb6ace534f -> 
+  custom:scripting/monoscript/fileName/IEditModeTestYieldInstruction.cs: ad49fb85f2d4ed0badb27552deac0771 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/IScriptingRuntimeProxy.cs: c75af2a6ef439df9f19f151aeb5749ea -> 
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: a77167e74e3a3d01856e2c8265c09e64 -> 
+  custom:scripting/monoscript/fileName/TestFilterSettings.cs: 5275be823d4854688aedadf9bf48dfa8 -> 
+  custom:scripting/monoscript/fileName/ProjectProperties.cs: 407063898a13eaad2cd100e43551c6b5 -> 
+  custom:scripting/monoscript/fileName/CachingTestListProvider.cs: bfcb79acce43a93633071168c814d063 -> 
+  custom:scripting/monoscript/fileName/KnownAssemblies.cs: 286bea9f8fcee5e392f6fc0f0cd541c8 -> 
+  custom:scripting/monoscript/fileName/EnumerableRepeatedTestCommand.cs: dbdc4517e80e66a31f48ce40e06931f2 -> 
+  custom:scripting/monoscript/fileName/PlaymodeTestsControllerSettings.cs: 90cec9ec9d50d9e797d7b80fa88b49ed -> 
+  custom:scripting/monoscript/fileName/TestRunnerApiListener.cs: cc17cec8825a8f933d6ecbd68d51f1de -> 
+  custom:scripting/monoscript/fileName/PlatformSpecificSetup.cs: 0a7f9c0b27ae370d8bd5d3df4916ae28 -> 
+  custom:scripting/monoscript/fileName/EditModeLauncherContextSettings.cs: d1e413330d98a9101237ccbe91f95dea -> 
+  custom:scripting/monoscript/fileName/UnityWorkItemDataHolder.cs: 94e44d74f673f889418b2b9926b6615c -> 
+  custom:scripting/monoscript/fileName/VSCodeDiscovery.cs: d83b4aff57b85f583bfc60cfbb7e527e -> 
+  custom:scripting/monoscript/fileName/PlayerQuitHandler.cs: b4085dee8fd70ae04ac96945fafed489 -> 
+  custom:scripting/monoscript/fileName/CommandLineOption.cs: 211f73ad4421274a5a418608b74cc839 -> 
+  custom:scripting/monoscript/fileName/IPostBuildCleanup.cs: 8d43f6dbc44addb43106f91d15047771 -> 
+  custom:scripting/monoscript/fileName/ExitCallbacks.cs: 716173503afdef0ae4c4023adba1972e -> 
+  custom:scripting/monoscript/fileName/AsyncOperation.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Symbols.cs: 27613575e8bda8a6448f80ff27c488f9 -> 
+  custom:scripting/monoscript/fileName/VersionPair.cs: 88b4a0b7e953537f26ded0a68cf4c238 -> 
+  custom:scripting/monoscript/fileName/ICallbacksHolder.cs: 790e89a97c8150c3044e584386d3ba9a -> 
+  custom:scripting/monoscript/fileName/UnityPlatformAttribute.cs: e79555e200698f1b55c6c54851cd369e -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 304525d180d2b661ce338fc8a3225752 -> 
+  custom:scripting/monoscript/fileName/PlayerLauncher.cs: c1129f48ad00377c128c470482bb7e8e -> 
+  custom:scripting/monoscript/fileName/UnityCombinatorialStrategy.cs: e857e6faada8b59173cb249a8a6be6fa -> 
+  custom:scripting/monoscript/fileName/GUIDGenerator.cs: 6dd6e35608006bcfade7642e5de04c6b -> 
+  custom:scripting/monoscript/fileName/ImmediateEnumerableCommand.cs: 89dd27d23dccf969b99d79611e8fed9a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PrebuildSetupTask.cs: a4e888a510b1441a257b12183e59237b -> 
+  custom:scripting/monoscript/fileName/TestStarter.cs: d1bc3fba65bb4735afc3828355ea6c72 -> 
+  custom:scripting/monoscript/fileName/UnexpectedLogMessageException.cs: a7bbf32861c66018271b093fc1d1061b -> 
+  custom:scripting/monoscript/fileName/ApplePlatformSetup.cs: 0ceeffeb4378c50fe08ff9b5d16a73f3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/EnumerableSetUpTearDownCommand.cs: 16b603dbb9724508977696171a42991f -> 
+  custom:scripting/monoscript/fileName/RerunCallback.cs: ffe49cf602017087ffa7749d06513ace -> 
+  custom:scripting/monoscript/fileName/CoroutineRunner.cs: 846507eaccf9841c799a02861e075d47 -> 
+  custom:scripting/monoscript/fileName/EnumerableTestMethodCommand.cs: 9040b48595c4d63d6c1126d81d3f1105 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: a430c0ff873704a92fbd3fa96f173c8d -> 
+  custom:scripting/monoscript/fileName/ConstructDelegator.cs: c271ca33e5434ac87e82546dd149c303 -> 
+  custom:scripting/monoscript/fileName/EditorCompilationInterfaceProxy.cs: 12bc7b3dd0ab2ff83629d76ca37d0d4d -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/TestResultAdaptor.cs: fb4db3971d5379750cda884e7e44e3e4 -> 
+  custom:scripting/monoscript/fileName/PlayerLauncherTestRunSettings.cs: ac04d6a6a9c6380f318071a2f4da8a2f -> 
+  custom:scripting/monoscript/fileName/TestListTreeViewDataSource.cs: 153f0d5d9a6099f80f6d26e9c0ad6b7d -> 
+  custom:scripting/monoscript/fileName/TestRunCallbackAttribute.cs: c61459d4a70eab5bd767d5a1f82f55d8 -> 
+  custom:scripting/monoscript/fileName/PostBuildCleanupAttribute.cs: 71391ff444f943d9ad8dd0d42b7ac81f -> 
+  custom:scripting/monoscript/fileName/UnityLogCheckDelegatingCommand.cs: 410acedf83a5c4e9d5a212b5635d0c88 -> 
+  custom:scripting/monoscript/fileName/TestPlayerBuildModifierAttribute.cs: d4ffc53911ef24dec9dc901e0444a77b -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ITestListCache.cs: 93f202374a8dd6602503d990ab2feb72 -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 4ee82f9c59f87f1dece05e6b9763c365 -> 
+  custom:scripting/monoscript/fileName/StacktraceFilter.cs: 2f4728b5b8f653bd2197ec8c4b722e7d -> 
+  custom:scripting/monoscript/fileName/CommandLineOptionSet.cs: 57b6c3812f217f48a5cedf066a216cfd -> 
+  custom:scripting/monoscript/fileName/ITestRunCallback.cs: 7d90e4d27cccfe89ef24a93578e15a74 -> 
+  custom:scripting/monoscript/fileName/TestTreeData.cs: 1859d24be324d8fb87ab0c693d76d928 -> 
+  custom:scripting/monoscript/fileName/ActionDelegator.cs: f2eb6c2fd33630cfdd6d3183b4a2ca3f -> 
+  custom:scripting/monoscript/fileName/Vector3EqualityComparer.cs: 1c8652cac1f220d6409ab1ba3f211615 -> 
+  custom:scripting/monoscript/fileName/ITestRunnerApiMapper.cs: 337d02b691c8103d2eedc6b52f4f76ab -> 
+  custom:scripting/monoscript/fileName/RerunCallbackInitializer.cs: a2ca4a4e4bb070fd30ec377e61ed66cb -> 
+  custom:scripting/monoscript/fileName/LogAssert.cs: 195ab501c85f741ece9ac8b49385dcce -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: c78bd5b4fa28ac60ca7ed50f9c2b99d2 -> 
+  custom:scripting/monoscript/fileName/IEditorAssembliesProxy.cs: 8586f95fda82b1fa948b8ac0ebb50a9d -> 
+  custom:scripting/monoscript/fileName/VSCodeScriptEditor.cs: 976f19e81f1a1748ecd5ce0eeab6e373 -> 
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 3a1d37ca0015bdfbd542c903cf738043 -> 
+  custom:scripting/monoscript/fileName/SettingsBuilder.cs: 9aeeee75a181ed82e0343a1fb6b9cead -> 
+  custom:scripting/monoscript/fileName/ITestListCacheData.cs: 09682e3e03141d9f43100cdaff3665eb -> 
+  custom:scripting/monoscript/fileName/ICallbacks.cs: a9c5fd289272fce7e09c7f3e5f11b8a0 -> 
+  custom:scripting/monoscript/fileName/AndroidPlatformSetup.cs: 67d5fa212608c900d88b1544a5f49997 -> 
+  custom:scripting/monoscript/fileName/SetupException.cs: 38724dd55c58f65b09d9fda4b6161021 -> 
+  custom:scripting/monoscript/fileName/PrebuildSetupAttributeFinder.cs: 1f975f3a70c8f9747da919735d84e6c3 -> 
+  custom:scripting/monoscript/fileName/ILogScope.cs: e99dd640a2ac2c8b1c0c97725f23440d -> 
+  custom:scripting/monoscript/fileName/IEditorLoadedTestAssemblyProvider.cs: cbb3f715010afa8cd4f0f40294bb78ba -> 
+  custom:scripting/monoscript/fileName/TestListCacheData.cs: 295232838ed90f85679b2d004562d59e -> 
+  custom:scripting/monoscript/fileName/ScriptingRuntimeProxy.cs: 19d9ac4d844404a0464698120ed39275 -> 
+  custom:scripting/monoscript/fileName/UnityInstallation.cs: 0ba30d4545f2c34a9323456723b5dbfe -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 170b0fd934f78f2e6a09342014bfa1fc -> 
+  custom:scripting/monoscript/fileName/SolutionProjectEntry.cs: 68cea09e9af09443edf61e18806ac1c2 -> 
+  custom:scripting/monoscript/fileName/TestExtensions.cs: 8e47deac44d7b87eaa5df5d00556dc15 -> 
+  custom:scripting/monoscript/fileName/Is.cs: 6922f89182cd28e32ba48e34cda7947d -> 
+  custom:scripting/monoscript/fileName/TestListProvider.cs: f8235933605b6a025c9638df0194bf97 -> 
+  custom:scripting/monoscript/fileName/ITestListProvider.cs: 0169c532d74787e64cd4163cd55d4572 -> 
+  custom:scripting/monoscript/fileName/VisualStudioEditor.cs: 21e59f688ad500ab61aca318850ec505 -> 
+  custom:scripting/monoscript/fileName/TestEnumeratorWrapper.cs: 3e969f8448dc5644f60fbcb6f1badbcb -> 
+  custom:scripting/monoscript/fileName/TestListGUIBase.cs: 24d4809a020104916f1cbf5b523f10ca -> 
+  custom:scripting/monoscript/fileName/AllocatingGCMemoryConstraint.cs: 8b2ed7fbfb529ba318fb8425f7a81278 -> 
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 087796556f1ed2025e28209e52d82ccc -> 
+  custom:scripting/monoscript/fileName/WindowResultUpdaterDataHolder.cs: 2de8ba1615f5d28c30d54411d42e2524 -> 
+  custom:scripting/monoscript/fileName/LegacyPlayModeRunTask.cs: 8a159c990fea520d0af36b86d243e79e -> 
+  custom:scripting/monoscript/fileName/LogWriter.cs: 89105d9cfbe59e79a996dde998b3e7ff -> 
+  custom:scripting/monoscript/fileName/AttributeHelper.cs: dcab3630cb119e1a5f7f9c7b24677e49 -> 
+  custom:scripting/monoscript/fileName/TestRunCanceledException.cs: ff7dc6bce365deb50fafe94b823009cb -> 
+  custom:scripting/monoscript/fileName/ISettingsBuilder.cs: af84c62ea6a033820a24a2d04c70d5c3 -> 
+  custom:scripting/monoscript/fileName/UnityWorkItem.cs: ce02ef2c77c866afeb6c04a89a364a8a -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: 7460422a7cf0a449df86606b185ffb0e -> 
+  custom:scripting/monoscript/fileName/PlayerConnectionMessageIds.cs: 2e4b7265f0eeb40e1260d00fe6e4614e -> 
+  custom:scripting/monoscript/fileName/RenderingOptions.cs: a84cebfad0b53e3dbf0202be3cc1d6d3 -> 
+  custom:scripting/monoscript/fileName/TestCommandBuilder.cs: bf61faf29c0aea0c4e5d4ac76abaee13 -> 
+  custom:scripting/monoscript/fileName/WorkItemFactory.cs: d8b2e380888ccc980a475a01f04d7a45 -> 
+  custom:scripting/monoscript/fileName/ITestResultAdaptor.cs: bb9e1bbb2ff45e5a5f11e877a24721d7 -> 
+  custom:scripting/monoscript/fileName/VisualStudioInstallation.cs: 41612f13db7783c8635801ab159c1079 -> 
+  custom:scripting/monoscript/fileName/Vector4ComparerWithEqualsOperator.cs: 982db4358832ddfb456522b96543f1da -> 
+  custom:scripting/monoscript/fileName/UnityTestExecutionContext.cs: 4c0ef8e8d96fc20b3ec58c9447d6ec92 -> 
+  custom:scripting/monoscript/fileName/InvalidSignatureException.cs: f250eccc836ee674127ecdee41f7a4ea -> 
+  custom:scripting/monoscript/fileName/IAssetsDatabaseHelper.cs: 4f8027cddf715e38f75ab454f20fe051 -> 
+  custom:scripting/monoscript/fileName/LogSavingCallbacks.cs: 8eb93b3e2c76ea1a8acb6e2d0b5c5f91 -> 
+  custom:scripting/monoscript/fileName/Vector2ComparerWithEqualsOperator.cs: 1851f392f974d4a42efb0de68a402e9b -> 
+  custom:scripting/monoscript/fileName/ITestAdaptorFactory.cs: 0cef1125679c38dd172e82c8aed26eb9 -> 
+  custom:scripting/monoscript/fileName/UnitySetUpAttribute.cs: 78bcd37bf54751e70200df4ae24f405b -> 
+  custom:scripting/monoscript/fileName/RestoreTestContextAfterDomainReload.cs: 3f8ddcbc7c316ccf5012287995780eb2 -> 
+  custom:scripting/monoscript/fileName/TestListJob.cs: 3a58b9c1d09f7f4ecb41254c8497b5c7 -> 
+  custom:scripting/monoscript/fileName/AssemblyWrapper.cs: 888ba979193ec837feef9add74101219 -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultDataWithTestData.cs: bcf701fb298ed6f8cab894b203300c37 -> 
+  custom:scripting/monoscript/fileName/SwitchPlatformSetup.cs: 576de741bbd585688af4b8aaf70f0708 -> 
+  custom:scripting/monoscript/fileName/TestFinishedMessage.cs: ccd3538dc4059cd71acd9bfea48dbc80 -> 
+  custom:scripting/monoscript/fileName/PlayerLauncherContextSettings.cs: 3c0a34dce28ade8f88b3e213fadb0738 -> 
+  custom:scripting/monoscript/fileName/WindowResultUpdater.cs: 605812b0e2a9a0174e15ed86a3d5ac57 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: 005dc9d9c07dc825fea94e0fbc841e20 -> 
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TestRunnerResult.cs: 613fb3e1dfef14aa9d5aea2cd635ffff -> 
+  custom:scripting/monoscript/fileName/ConstraintsExtensions.cs: 89e01f1f8de15d891db3bad70117d924 -> 
+  custom:scripting/monoscript/fileName/EditModeRunner.cs: f1ceb581ae48e42ca32e80f796ce45bc -> 
+  custom:scripting/monoscript/fileName/Vector2EqualityComparer.cs: 4ac8b0db10bbdb7ea68d4be944c5b941 -> 
+  custom:scripting/monoscript/fileName/Icons.cs: d200e454d3abc3ae715b656f39ed7d9c -> 
+  custom:scripting/monoscript/fileName/UnityTestTimeoutException.cs: b7ec28ea102309dc20886c45fff1e1b5 -> 
+  custom:scripting/monoscript/fileName/PlayModeRunnerCallback.cs: 6cd874bc3032a6eaf4228f5877b27ba0 -> 
+  custom:scripting/monoscript/fileName/ITestTreeRebuildCallbacks.cs: f952713f83d574a58f719696be7e52a3 -> 
+  custom:scripting/monoscript/fileName/Serializer.cs: d7df1b97d0a3bd0bb98fd4d2d5bf5d29 -> 
+  custom:scripting/monoscript/fileName/SaveModiedSceneTask.cs: 135adac13be698ff4439d6c6268aa5b8 -> 
+  custom:scripting/monoscript/fileName/RunSettings.cs: 6770f3fdaf287e73ff6c63f28a5a7e92 -> 
+  custom:scripting/monoscript/fileName/IAssemblyWrapper.cs: 993dbd556e2f14ec6d4f6bce6cb00191 -> 
+  custom:scripting/monoscript/fileName/UITestRunnerFilter.cs: a9e31eaec62dd508fa917eadb1c52808 -> 
+  custom:scripting/monoscript/fileName/Executer.cs: 3f667ef14fa1c500658713b8aa31fd85 -> 
+  custom:scripting/monoscript/fileName/UtpMessageReporter.cs: 1ce82c57220e51532d6b3e5da0cecc24 -> 
+  custom:scripting/monoscript/fileName/FileCleanupVerifierTaskBase.cs: 8c0e90b329ac988e22429767c222f3c6 -> 
+  custom:scripting/monoscript/fileName/UwpPlatformSetup.cs: b9f50f93de5f547a7eaf96f1bc58a80f -> 
+  custom:scripting/monoscript/fileName/FullNameFilter.cs: 7c49c279cb0d631ca64d8b7d70065d9c -> 
+  custom:scripting/monoscript/fileName/EnumeratorStepHelper.cs: 05022a723dcf173476ccb43403871168 -> 
+  custom:scripting/monoscript/fileName/AssetPipelineIgnore.cs: 09786e27e9aef22fa608d3ec356f88ff -> 
+  custom:scripting/monoscript/fileName/PlayerTestAssemblyProvider.cs: cbdd04f669e4e0054bad4f9d3133a10c -> 
+  custom:scripting/monoscript/fileName/UnhandledLogMessageException.cs: fa6ee6fe2a221a71f213304ae56898c7 -> 
+  custom:scripting/monoscript/fileName/EnumerableApplyChangesToContextCommand.cs: c2aa6cedc66892dd581c50a4d9b6a147 -> 
+  custom:scripting/monoscript/fileName/RecompileScripts.cs: 73e345449efb1420f34aad9debcdf2bd -> 
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: 77c1db6bef2e1063dc874463b520ed18 -> 
+  custom:scripting/monoscript/fileName/PlaymodeWorkItemFactory.cs: 8bb2d7c0ad22b08cf17b1748007ae8c3 -> 
+  custom:scripting/monoscript/fileName/PrebuildSceneSetupAttribute.cs: 7863da9f66129a3cef8eac0a1f19b990 -> 
+  custom:scripting/monoscript/fileName/RemoteTestData.cs: 51ba1ddd57fb71948e60067806b9cfcd -> 
+  custom:scripting/monoscript/fileName/StadiaPlatformSetup.cs: 27e00e91e04b4888c1d6354fa4baa6a5 -> 
+  custom:scripting/monoscript/fileName/TestResultSerializer.cs: b75c8de5ed0cf8b4071350488249260d -> 
+  custom:scripting/monoscript/fileName/TestSettingsDeserializer.cs: 2daa2d89ea5f024d33cb1e72a3d35d63 -> 
+  custom:scripting/monoscript/fileName/CallbackData.cs: b15b13425eedd78fb5c4fc4930a9e8b4 -> 
+  custom:scripting/monoscript/fileName/EditModeTestListGUI.cs: 8831f0ca2dcd13614282b516af72c688 -> 
+  custom:scripting/monoscript/fileName/Messenger.cs: f4ebc46d09b2b4de489946914db2aae0 -> 
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: 45cc23141d36926881d69e4d2f8950c7 -> 
+  custom:scripting/monoscript/fileName/IUtpLogger.cs: 1b41334d9fc4fd5edb024e0bd2a6db56 -> 
+  custom:scripting/monoscript/fileName/DelayedCallback.cs: e88c5396d33adcd6404b4cb8a051b2b1 -> 
+  custom:scripting/monoscript/fileName/TcpListener.cs: 940bfdac0e91ad2884e6359468f2782a -> 
+  custom:scripting/monoscript/fileName/TestRunnerWindow.cs: 156fc89bab7bdd82ca70e07c9aa9ebbd -> 
+  custom:scripting/monoscript/fileName/OrderedTestSuiteModifier.cs: 6a8006d91a7636d39c6731494060c3c2 -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: 871a958d95b29e48af876a5d411c626a -> 
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: cdd3f47e4fe593d2dfdf9915fa537e3f -> 
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandState.cs: b5335096b805e070d1c48ec9209e057d -> 
+  custom:scripting/monoscript/fileName/DefaultTestWorkItem.cs: f906b4fb5b78cb9d23a07212620919d9 -> 
+  custom:scripting/monoscript/fileName/TestRunnerApiMapper.cs: 241489454095fad1d1d89166ee62820f -> 
+  custom:scripting/monoscript/fileName/Message.cs: 671a789acb2c7a93d0b620fe02979957 -> 
+  custom:scripting/monoscript/fileName/TestTreeViewBuilder.cs: 6ec2bdd7d75f4f5e0b3318e1489ac19d -> 
+  custom:scripting/monoscript/fileName/LegacyPlayerRunTask.cs: 148e0500b0761261bc418d25c26e82b1 -> 
+  custom:scripting/monoscript/fileName/SolutionParser.cs: 240a75b5fc2682997268aa77e6a1dd86 -> 
+  custom:scripting/monoscript/fileName/BuildTestTreeTask.cs: ca4a5380bc07f43d0ad6bc5c2ca39b4b -> 
+  custom:scripting/monoscript/fileName/ICallbacksDelegator.cs: 2bfa822de05a601b9fbe2f79d4d317c0 -> 
+  custom:scripting/monoscript/fileName/LogScope.cs: a032a8edefa3a04276b9f24e5047f2ac -> 
+  custom:scripting/monoscript/fileName/Vector3ComparerWithEqualsOperator.cs: c497cde63ec72672e5f69e70b932688f -> 
+  custom:scripting/monoscript/fileName/TestListGuiHelper.cs: 6d40eb061ebdba07e078b90b14eadffd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IGuiHelper.cs: da57d3fb0f8ace42d5b01eed25e9e3d5 -> 
+  custom:scripting/monoscript/fileName/TestAdaptor.cs: 486cec8559bad7c56adc699f165feb67 -> 
+  custom:scripting/monoscript/fileName/EditmodeWorkItemFactory.cs: e9c8ba8d2a4b7d9a886e64626b2e6205 -> 
+  custom:scripting/monoscript/fileName/TestJobData.cs: 194f4626c5a4649f7b9d85aa9d59e59a -> 
+  custom:scripting/monoscript/fileName/TestListenerWrapper.cs: 9bd83ba3a6a675f3c605795064caa62b -> 
+  custom:scripting/monoscript/fileName/TestStartedMessage.cs: 2e20a681c83fd9e8634c9b938205f951 -> 
+  custom:scripting/monoscript/fileName/TestPlanMessage.cs: 6199b0505360321c39d00a607adaaf8d -> 
+  custom:scripting/monoscript/fileName/RuntimeTestRunnerFilter.cs: 526247a6af82c71973a55c9c5be36280 -> 
+  custom:scripting/monoscript/fileName/CallbacksDelegator.cs: e0dcdade48f633c0a7cebc925bd686c4 -> 
+  custom:scripting/monoscript/fileName/TestResultExtensions.cs: 1c512e213c49ce6d72b9d37b957b9372 -> 
+  custom:scripting/monoscript/fileName/TcpClient.cs: a949cfd4c46427829913ee0195fa0103 -> 
+  custom:scripting/monoscript/fileName/TestCommandPcHelper.cs: f958b2880473418011bc0cda18245d1e -> 
+  custom:scripting/monoscript/fileName/LogMatch.cs: fed715ef044674dde53628d58d931b50 -> 
+  custom:scripting/monoscript/fileName/ITestSettings.cs: 7d6676128f469c2eefb2813ec592ab4f -> 
+  custom:scripting/monoscript/fileName/UsageUtility.cs: 5ed3d13206b2b96245ce59a5c83beed1 -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultSender.cs: 2b6acbe484994dc310d0ac406904e742 -> 
+  custom:scripting/monoscript/fileName/ITestRunSettings.cs: a5342276210c7f86635118880184dc77 -> 
+  custom:scripting/monoscript/fileName/CallbacksDelegatorListener.cs: f80c4f45fed6816f24285f468af00026 -> 
+  custom:scripting/monoscript/fileName/OutOfOrderExpectedLogMessageException.cs: 4ff78bac16cc86124e588c20ad3ddba7 -> 
+  custom:scripting/monoscript/fileName/TestRunnerWindowSettings.cs: fb70b758f65d0605100dbd9482b7158e -> 
+  custom:scripting/monoscript/fileName/IPlatformSetup.cs: 6f20476898784a15f8b8eb28653a67fd -> 
+  custom:scripting/monoscript/fileName/TestTreeViewItem.cs: aae3d62f4daf680133c1c18c7814d15e -> 
+  custom:scripting/monoscript/fileName/AssemblyLoadProxy.cs: 0f3a4ee005eb8f7b33161c2ba6196e00 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AttributeFinderBase.cs: 7e104530f871143fdb60a169114dd663 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: fb9aed0c9d95878995d450a00d549f78 -> 
+  custom:scripting/monoscript/fileName/SaveUndoIndexTask.cs: 6e0bcd5f418cf8184993174ac732fff4 -> 
+  custom:scripting/monoscript/fileName/ProcessRunner.cs: 932a2a80cb9a3539199f645deff3c585 -> 
+  custom:scripting/monoscript/fileName/TestResultRenderer.cs: 2e8123de6d2eea4d42efb7a87e150b27 -> 
+  custom:scripting/monoscript/fileName/PlayerLauncherBuildOptions.cs: 39352f62028667e3cc8d13371f828f55 -> 
+  custom:scripting/monoscript/fileName/SetUpTearDownCommand.cs: 684e5d1c75373405f8a6c9575324286f -> 
+  custom:scripting/monoscript/fileName/PlaymodeLauncher.cs: 7559db6722a49842c0446e2fd98b6c97 -> 
+  custom:scripting/monoscript/fileName/WaitForDomainReload.cs: b6033700f0adcf3b23782f04c42e269c -> 
+  custom:scripting/monoscript/fileName/ExitCallbacksDataHolder.cs: 2a73f9623aa81becb5d8d11a43747b12 -> 
+  custom:scripting/monoscript/fileName/EditorEnumeratorTestWorkItem.cs: b8f886476b7c18f3c1cdeae30ec0c8ea -> 
+  custom:scripting/monoscript/fileName/RegisterFilesForCleanupVerificationTask.cs: f18fd2d946c9ea52b8232f47d6d70221 -> 
+  custom:scripting/monoscript/fileName/ITestSettingsDeserializer.cs: 22e37de7af2cea07971d0ba87110dad7 -> 
+  custom:scripting/monoscript/fileName/ICommandLineOption.cs: 58da599070a3bdab08afc8355de79ed5 -> 
+  custom:scripting/monoscript/fileName/AnalyticsReporter.cs: 990f0ccd7dd9ebe56483e30a572c9394 -> 
+  custom:scripting/monoscript/fileName/TestEnumerator.cs: 26328e1622cb69ba0b1e01e906e7f65f -> 
+  custom:scripting/monoscript/fileName/UnityTestAssemblyBuilder.cs: 5e02e71819f544263f933dbf6516d49f -> 
+  custom:scripting/monoscript/fileName/TestRunnerStateSerializer.cs: 7206f4f1eb4c5991ea76b5c39830dba4 -> 
+  custom:scripting/monoscript/fileName/EnumerableRetryTestCommand.cs: b281084796eb91cc19de80f3f2b73a56 -> 
+  custom:scripting/monoscript/fileName/TestAdaptorFactory.cs: b9e4d12260befcd688940e2c80db8ee8 -> 
+  custom:scripting/monoscript/fileName/IEnumerableTestMethodCommand.cs: 81260787415c187c9e413e476b816cd2 -> 
+  custom:scripting/monoscript/fileName/UtpDebuglogger.cs: 2f96cd7ac1384aa23e8238df80ef8354 -> 
+  custom:scripting/monoscript/fileName/ColorEqualityComparer.cs: 9ae684bc4a6b608abc9f7f131bd7cb1d -> 
+  custom:scripting/monoscript/fileName/EditModePCHelper.cs: e16a214ddb2d161f4792170cb0c8e6aa -> 
+  custom:scripting/monoscript/fileName/AssemblyNameFilter.cs: ce7ef29746fb23841833950bb87cfa6a -> 
+  custom:scripting/monoscript/fileName/ExecutionSettings.cs: bbd5f229f5dcda0d2d7d6fe8eb266a59 -> 
+  custom:scripting/monoscript/fileName/IAsyncTestAssemblyBuilder.cs: d4bd9849c11964145b1082a4b1d477fa -> 
+  custom:scripting/monoscript/fileName/LogEvent.cs: 9bf386b9808c16608387e196f7a5e9d6 -> 
+  custom:scripting/monoscript/fileName/Deserializer.cs: 1cc72e9ed2428cc6d6ce2d4d2ad7b02b -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: fd3ef4968f52e76fbead1b2807cd115f -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: bad2c2e3b2dbec33c36bdfd6fc903e19 -> 
+  custom:scripting/monoscript/fileName/AnalyticsTestCallback.cs: 70c2658c96c40ebe349fda85c81dae6e -> 
+  custom:scripting/monoscript/fileName/RemotePlayerLogController.cs: 158b55f2a8781eb1cac7ac26acd42fc6 -> 
+  custom:scripting/monoscript/fileName/EnumerableTestState.cs: 30e3efb82d3f99d65cdecdd2f0bc0194 -> 
+  custom:scripting/monoscript/fileName/TestTaskBase.cs: 162ca0c58961a22b2d7f2a866ccb62df -> 
+  custom:scripting/monoscript/fileName/CallbacksHolder.cs: 8b4255bb9b31589c4c3dd9303007381d -> 
+========================================================================
+Received Prepare
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile/RuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation/GridInformation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile/AnimatedTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile/RuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation/GridInformation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile/AnimatedTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.248 seconds
+Refreshing native plugins compatible for Editor in 26.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Packages/com.unity.2d.tilemap.extras/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Editor' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Editor/Unity.2D.Tilemap.Extras.Editor.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras.Placeholder.EditorTests' already exists (Packages/com.unity.2d.tilemap.extras/Tests/Editor/Unity.2D.Tilemap.Extras.EditorTests.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Packages/com.unity.2d.tilemap.extras/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Assembly with name 'Unity.2D.Tilemap.Extras' already exists (Assets/Unity 2d Extras/2d-extras-package_2022.1/2d-extras-package_2022.1/Runtime/Unity.2D.Tilemap.Extras.asmdef)
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/AdvancedRuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile/RuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile/RuleOverrideTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation/GridInformation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile/AnimatedTile.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -136,326 +614,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.932 seconds
-Domain Reload Profiling: 3966ms
-	BeginReloadAssembly (409ms)
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 2391ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (114ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (128ms)
-	LoadAllAssembliesAndSetupDomain (1351ms)
-		LoadAssemblies (1063ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (546ms)
-			TypeCache.Refresh (463ms)
-				TypeCache.ScanAssembly (423ms)
-			ScanForSourceGeneratedMonoScriptInfo (68ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1933ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1475ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (67ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (204ms)
-			ProcessInitializeOnLoadAttributes (1065ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 36.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4686 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (69.8 KB). Loaded Objects now: 5137.
-Memory consumption went from 160.8 MB to 160.7 MB.
-Total: 9.741800 ms (FindLiveObjects: 0.874300 ms CreateObjectMapping: 0.755000 ms MarkObjects: 7.794000 ms  DeleteObjects: 0.316200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2914682.909237 seconds.
-  path: Assets/Scenes/Main System/Characters/MobileJoystickUI.cs
-  artifactKey: Guid(d1e17e5cca347e84f935be6f16e78d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main System/Characters/MobileJoystickUI.cs using Guid(d1e17e5cca347e84f935be6f16e78d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2197be79b53216eb4c949b017fa9077e') in 0.007050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Scenes/Main System/Characters/Character_Skins.cs
-  artifactKey: Guid(930a6e3d5301bac49bdc5542f161b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main System/Characters/Character_Skins.cs using Guid(930a6e3d5301bac49bdc5542f161b322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d3708861225400961479236d204f5c') in 0.001392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Scenes/Main System/Characters/Character_MoveMobile.cs
-  artifactKey: Guid(140e23c56e8a20c49919d5f3b89c8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main System/Characters/Character_MoveMobile.cs using Guid(140e23c56e8a20c49919d5f3b89c8cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8563ad18dfd18c5d55c4a4d4cdb9cba') in 0.001688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 36.85 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 5137.
-Memory consumption went from 84.0 MB to 84.0 MB.
-Total: 8.562300 ms (FindLiveObjects: 0.875100 ms CreateObjectMapping: 0.675600 ms MarkObjects: 6.958200 ms  DeleteObjects: 0.050500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.381 seconds
-Refreshing native plugins compatible for Editor in 31.37 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.816 seconds
-Domain Reload Profiling: 5180ms
-	BeginReloadAssembly (487ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (33ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (673ms)
-		LoadAssemblies (934ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (3818ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1389ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (239ms)
-			ProcessInitializeOnLoadAttributes (947ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (29ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 48.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4673 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (42.9 KB). Loaded Objects now: 5142.
-Memory consumption went from 155.9 MB to 155.8 MB.
-Total: 10.534300 ms (FindLiveObjects: 0.880100 ms CreateObjectMapping: 0.849300 ms MarkObjects: 8.632300 ms  DeleteObjects: 0.169700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 25.26 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 5142.
-Memory consumption went from 84.5 MB to 84.5 MB.
-Total: 8.829600 ms (FindLiveObjects: 0.596400 ms CreateObjectMapping: 0.440800 ms MarkObjects: 7.735000 ms  DeleteObjects: 0.055300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.805 seconds
-Refreshing native plugins compatible for Editor in 18.52 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in 17.093 seconds
-Domain Reload Profiling: 20888ms
-	BeginReloadAssembly (466ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (160ms)
-	RebuildCommonClasses (193ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (3053ms)
-		LoadAssemblies (3180ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (67ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (8ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (17093ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (739ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 23.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4709 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (45.5 KB). Loaded Objects now: 5180.
-Memory consumption went from 156.7 MB to 156.7 MB.
-Total: 6.652100 ms (FindLiveObjects: 0.717700 ms CreateObjectMapping: 0.533700 ms MarkObjects: 5.292300 ms  DeleteObjects: 0.106900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.044 seconds
-Refreshing native plugins compatible for Editor in 28.98 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.682 seconds
-Domain Reload Profiling: 3707ms
-	BeginReloadAssembly (320ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
+		CreateAndSetChildDomain (36ms)
 	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (681ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (888ms)
+		LoadAssemblies (841ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2683ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1155ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (768ms)
+		SetupLoadedEditorAssemblies (825ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (511ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 26.22 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 26.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4731 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (51.2 KB). Loaded Objects now: 5194.
-Memory consumption went from 157.5 MB to 157.4 MB.
-Total: 6.033700 ms (FindLiveObjects: 0.717600 ms CreateObjectMapping: 0.380600 ms MarkObjects: 4.788200 ms  DeleteObjects: 0.145200 ms)
+Unloading 4732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (70.8 KB). Loaded Objects now: 5187.
+Memory consumption went from 158.1 MB to 158.0 MB.
+Total: 5.493200 ms (FindLiveObjects: 0.534200 ms CreateObjectMapping: 0.207800 ms MarkObjects: 4.568100 ms  DeleteObjects: 0.181500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+Prepare: number of updated asset objects reloaded= 1
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -471,418 +671,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5997.629397 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/Sample.png
-  artifactKey: Guid(47efb3b42f86aae4cbfa6fade2e618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/Sample.png using Guid(47efb3b42f86aae4cbfa6fade2e618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97751c433135a11edb1516273aa4aad2') in 0.141907 seconds
+  Time since last request: 78148.578428 seconds.
+  path: Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/box_treasure.png
+  artifactKey: Guid(806081ac5b2fdfb4cbd7e3d382d91705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/box_treasure.png using Guid(806081ac5b2fdfb4cbd7e3d382d91705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50530922b90446d56d3d33710712bdc') in 0.167652 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 8.481869 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/Spritesheet/blockPack_spritesheet@2.png
-  artifactKey: Guid(cd7d83c29800bfa46bb8420e4efe415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/Spritesheet/blockPack_spritesheet@2.png using Guid(cd7d83c29800bfa46bb8420e4efe415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ee8b182ee6d4b2a7369ff542b85c26') in 0.050403 seconds
+  Time since last request: 0.000053 seconds.
+  path: Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/cart_top.png
+  artifactKey: Guid(8f7ed20dd2727dc4f99142397eca1a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/cart_top.png using Guid(8f7ed20dd2727dc4f99142397eca1a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea23e8f6b9d9c8e282a250997171d0c2') in 0.045847 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 12.766858 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/box_treasure.png
-  artifactKey: Guid(54459d2959a82644aab7f642f0e0b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/box_treasure.png using Guid(54459d2959a82644aab7f642f0e0b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9079ab7295ecac30242ef01fc5e3dc5') in 0.030866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.024945 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/cart_top.png
-  artifactKey: Guid(2b0e6bf493606294f8540439bd6f99ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/cart_top.png using Guid(2b0e6bf493606294f8540439bd6f99ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5905c1fdb8b334587679239a5a04ae7e') in 0.039485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/character_wizard.png
-  artifactKey: Guid(7a96c8c4eff6b4b499341c2baab0257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/character_wizard.png using Guid(7a96c8c4eff6b4b499341c2baab0257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcdfebbd287d049be4b8b1b308dd1e4') in 0.036615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/character_woman.png
-  artifactKey: Guid(9fec055dd6d7fb8459687ff525205ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/character_woman.png using Guid(9fec055dd6d7fb8459687ff525205ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1115d9f2228b77ef07066ba4d5cd072a') in 0.034803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_mud.png
-  artifactKey: Guid(d46119df58b457d4b8ab2d23568ee1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_mud.png using Guid(d46119df58b457d4b8ab2d23568ee1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87667a2e46fa84f64ba7ed7808a5ff03') in 0.038638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_windowSlit.png
-  artifactKey: Guid(31a57214e6c4bef44b019ee4b6f992b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_windowSlit.png using Guid(31a57214e6c4bef44b019ee4b6f992b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4d57d497e0d3e165155d7730d0a8c2') in 0.030893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/fence_doubleGate.png
-  artifactKey: Guid(03c6f381e9b5e1641aca65e78fbf89cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/fence_doubleGate.png using Guid(03c6f381e9b5e1641aca65e78fbf89cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9348318167b236fc07e19a47593db4ee') in 0.026948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/foliageTree_orange.png
-  artifactKey: Guid(d9fa2d9302fe1f9418f93b9c7fb62c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/foliageTree_orange.png using Guid(d9fa2d9302fe1f9418f93b9c7fb62c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8861e499dfdca163ac8319480502b7dd') in 0.032039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/foliageBush_small.png
-  artifactKey: Guid(66fea68a46d24a7438d4524dec9d5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/foliageBush_small.png using Guid(66fea68a46d24a7438d4524dec9d5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f14f946166a35c7e4f8638e205351a') in 0.029612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/market_roofBlue.png
-  artifactKey: Guid(a033e80e341827149ad8f6444c17b1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/market_roofBlue.png using Guid(a033e80e341827149ad8f6444c17b1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05111e806d79478c883979e2ad5c13f') in 0.030283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileBuilding_roofBlue.png
-  artifactKey: Guid(3c1eb455022ae0646acf273aa11d8ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileBuilding_roofBlue.png using Guid(3c1eb455022ae0646acf273aa11d8ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d78138b05d70c708b63c4c28d8f41c') in 0.028259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/market_stallRed.png
-  artifactKey: Guid(d4fa55aeca36f1642ae0896a8b2998da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/market_stallRed.png using Guid(d4fa55aeca36f1642ae0896a8b2998da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684e75429abd6399b1ecc9c4d4f0089f') in 0.029612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileBuilding_roofRedPoint.png
-  artifactKey: Guid(08b2ce9cb51b73d439324c34de6283cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileBuilding_roofRedPoint.png using Guid(08b2ce9cb51b73d439324c34de6283cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436e65b34e79aa359026657f2bb10132') in 0.035956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/fence_singleGate.png
-  artifactKey: Guid(63049d8678f31d743b00c9ffd4c5cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/fence_singleGate.png using Guid(63049d8678f31d743b00c9ffd4c5cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94965bf3aee6336ffbfc85b8e9ea2f45') in 0.030980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_topRoof.png
-  artifactKey: Guid(0320ce3aa1f295441bc3ea759fc19198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_topRoof.png using Guid(0320ce3aa1f295441bc3ea759fc19198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7256c5d3d4851e5f3d067d677f502c89') in 0.030353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slopeLeft.png
-  artifactKey: Guid(9297ba503bbebef4894db52f6f7adda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slopeLeft.png using Guid(9297ba503bbebef4894db52f6f7adda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329c37d776810eef2fcf3413021c4c22') in 0.030058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/character_man.png
-  artifactKey: Guid(effbe0f0772bb4d478149557e95c5189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/character_man.png using Guid(effbe0f0772bb4d478149557e95c5189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519eed46abaa3e5c9e50756a7aaeff8d') in 0.029729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_window.png
-  artifactKey: Guid(a7c55bb34c39a3a46bb565be44013a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_window.png using Guid(a7c55bb34c39a3a46bb565be44013a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9f77d808e112d4d1a91e519f93df53') in 0.031497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slopeRightRound.png
-  artifactKey: Guid(12889c37cb55fc04a82914bd90f65c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slopeRightRound.png using Guid(12889c37cb55fc04a82914bd90f65c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7c8b52a3f5f6f3546ce6b0014abfcb') in 0.028010 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/character_wizard.png
+  artifactKey: Guid(67a27f8cc2ff6a642932d2fa947379a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/character_wizard.png using Guid(67a27f8cc2ff6a642932d2fa947379a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d7cbfd552da65c97169f1d25621afb') in 0.035945 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileLava_2.png
-  artifactKey: Guid(27fa16aa7a4650b41b8ba4f077d345af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileLava_2.png using Guid(27fa16aa7a4650b41b8ba4f077d345af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bb42b468d07910b106085948fee76b') in 0.033580 seconds
+  path: Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/character_horse.png
+  artifactKey: Guid(a3edc20ffe909bd498ef85216c5e75d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/character_horse.png using Guid(a3edc20ffe909bd498ef85216c5e75d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a6347d73b73286fb4b6f5c292bcfb6') in 0.035450 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGrass_slopeLeftRound.png
-  artifactKey: Guid(731865f77a4d69d4b801e77984e19ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGrass_slopeLeftRound.png using Guid(731865f77a4d69d4b801e77984e19ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9f652aa34d33524977187ddf20e424') in 0.035105 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/detail_window.png
+  artifactKey: Guid(7c3fda9077e31874cb912fd748d5986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/detail_window.png using Guid(7c3fda9077e31874cb912fd748d5986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170bebb47d639759a7af1df2be4e6bd5') in 0.054667 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_windowCastle.png
-  artifactKey: Guid(c531712cee9d27f4fabb5140bdf08de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/detail_windowCastle.png using Guid(c531712cee9d27f4fabb5140bdf08de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bfc8fcea5fb62b3910ff2a625f7a70') in 0.035556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slopeRight.png
-  artifactKey: Guid(403007a610ec1b143ac03285833d2c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slopeRight.png using Guid(403007a610ec1b143ac03285833d2c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4cbf2fb8be5a978ebf902cbef8dc1e') in 0.033899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_stairsRight.png
-  artifactKey: Guid(0ec299c0d4a5bb44b90e8c71613c7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_stairsRight.png using Guid(0ec299c0d4a5bb44b90e8c71613c7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87e27e365f32911d38cf213ae560ebe') in 0.032072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_gate.png
-  artifactKey: Guid(04ee13f0294da4f4096d92bd8ff4f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_gate.png using Guid(04ee13f0294da4f4096d92bd8ff4f286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2f41b37d6be42c3f4a853bec7fc23c') in 0.033760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slope.png
-  artifactKey: Guid(a2d88cc6c8ea7c34c8da809f0b6c4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt_slope.png using Guid(a2d88cc6c8ea7c34c8da809f0b6c4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6300c32f920f8818d1a3799d1d6f8fd') in 0.037922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGrass.png
-  artifactKey: Guid(e42d1baf53f10bd4ba84f8c7433a7e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGrass.png using Guid(e42d1baf53f10bd4ba84f8c7433a7e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015248d7c433f2bea1d227d1b922a85c') in 0.032203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGoo_slopeLeftRound.png
-  artifactKey: Guid(fa4c4b3c92052254e85432681fb0c886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGoo_slopeLeftRound.png using Guid(fa4c4b3c92052254e85432681fb0c886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f44063d71d3b3db985ecc346f897ec3') in 0.033557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGoo_slopeRight.png
-  artifactKey: Guid(acabbbbf5d075084ba87a74dd79d7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileGoo_slopeRight.png using Guid(acabbbbf5d075084ba87a74dd79d7222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9849ab062affd9d04f6eaa7d1eb4cc71') in 0.030091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt.png
-  artifactKey: Guid(28543fd00d8801443804cb786610c564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileDirt.png using Guid(28543fd00d8801443804cb786610c564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2809444bc2d515434558b3144bdd13fc') in 0.032745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileBuilding_roofRedSide.png
-  artifactKey: Guid(9fd162b194ccd904f89ffef169aa5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileBuilding_roofRedSide.png using Guid(9fd162b194ccd904f89ffef169aa5308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1909b65e1e0f9b59671b6a5e50b0b38c') in 0.031013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/ladder_large.png
-  artifactKey: Guid(7d888fc0c4ba9964a89b3431e7c94f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/ladder_large.png using Guid(7d888fc0c4ba9964a89b3431e7c94f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a007fd8ebe48005b387cc33353a63cd') in 0.031612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle.png
-  artifactKey: Guid(c4ba8c60c4569eb41a273f14b50f57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle.png using Guid(c4ba8c60c4569eb41a273f14b50f57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1799df1fbd6c3aab0f8fa6e4345bb868') in 0.035582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/market_stallBlue.png
-  artifactKey: Guid(78286c8840d5efc458cdc1760fda0de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/market_stallBlue.png using Guid(78286c8840d5efc458cdc1760fda0de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4517c972f34a2d0350049da643e8d0') in 0.036385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_stairs.png
-  artifactKey: Guid(fc07c7feb18ce0a4dbbc929aaaa53b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileCastle_stairs.png using Guid(fc07c7feb18ce0a4dbbc929aaaa53b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22d55df59a0a6c0622f7c0b05cbc77') in 0.033631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/cart.png
-  artifactKey: Guid(e8c4b010ceeda6a499b403add0a85b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/cart.png using Guid(e8c4b010ceeda6a499b403add0a85b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111f2d36f797d5c3edc608daff3ecb2c') in 0.037531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/fence_double.png
-  artifactKey: Guid(9b95b540ded5bed449328ed6d10fbaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/fence_double.png using Guid(9b95b540ded5bed449328ed6d10fbaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387d7ae1f14fabd83e1838c21f22ce43') in 0.031544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/door.png
-  artifactKey: Guid(a22eac55284a9e0418ca4c26000f2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/door.png using Guid(a22eac55284a9e0418ca4c26000f2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a81eaae807156338363e7eccc8c5fd0') in 0.039175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.710641 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSand_slope.png
-  artifactKey: Guid(ac4bd3ba09a457d4bbcf1c994b2df10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSand_slope.png using Guid(ac4bd3ba09a457d4bbcf1c994b2df10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28db7245e8065254be5c79edf7eea29b') in 0.035555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSand_slopeLeftRound.png
-  artifactKey: Guid(317b759b91ce80240bd8de931e0c84ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSand_slopeLeftRound.png using Guid(317b759b91ce80240bd8de931e0c84ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7a49a61c3b89cbe274bd1df0b36bd0') in 0.029153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow_slopeLeft.png
-  artifactKey: Guid(5df7992962a8c624c881f0010d2d3a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow_slopeLeft.png using Guid(5df7992962a8c624c881f0010d2d3a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7c26651a97b67a1b66baa646b0e29b') in 0.029489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow_slopeRight.png
-  artifactKey: Guid(a1a9049f3b4415c41a4e34f621fa4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow_slopeRight.png using Guid(a1a9049f3b4415c41a4e34f621fa4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2492da58958e166b3b266c620b3ce628') in 0.030901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileStone.png
-  artifactKey: Guid(771e570d7dbc4a14e8cc7bc9d713cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileStone.png using Guid(771e570d7dbc4a14e8cc7bc9d713cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7405eebb42e6011ba8fb062d94166377') in 0.032956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileStone_slopeRightRound.png
-  artifactKey: Guid(16d625c66e9e4c54a8fe67daece90791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileStone_slopeRightRound.png using Guid(16d625c66e9e4c54a8fe67daece90791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39d19c3440249eb2919e6d061617455') in 0.028611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileWater_3.png
-  artifactKey: Guid(c1a54425e3070ee4eb1ada91570f92e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileWater_3.png using Guid(c1a54425e3070ee4eb1ada91570f92e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2caf0e20d8fd395b55b6035a4fc275') in 0.029050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileWood_flat.png
-  artifactKey: Guid(c1760598d7b03e642b202297d2a5f222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileWood_flat.png using Guid(c1760598d7b03e642b202297d2a5f222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bf33bfca0e2bcabbf69c2ab649d81f') in 0.034457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileStone_slopeLeftRound.png
-  artifactKey: Guid(8d0bff0898aaef447923f1ebf88f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileStone_slopeLeftRound.png using Guid(8d0bff0898aaef447923f1ebf88f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac6adc20c3c00e08c5a8d54a88dbbb8') in 0.035316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileWater_4.png
-  artifactKey: Guid(b22ac9e29457a3544971f4dcf7bd1124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileWater_4.png using Guid(b22ac9e29457a3544971f4dcf7bd1124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97788f3cdc35e3ecde88de44e79aac44') in 0.033826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow.png
-  artifactKey: Guid(217f5d466f1510146afc4f583a8bab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow.png using Guid(217f5d466f1510146afc4f583a8bab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5b7e2902cb9653f2163267581a0772') in 0.035698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow_slope.png
-  artifactKey: Guid(100cd93cab499084ab94096db38c3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Default (64px)/tileSnow_slope.png using Guid(100cd93cab499084ab94096db38c3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d98d645b975d70e23e20bb260101ac7') in 0.033568 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/cart_horse.png
+  artifactKey: Guid(9ef2acdcb05a47548a24dcfc0feab16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_block-pack/PNG/Double (128px)/cart_horse.png using Guid(9ef2acdcb05a47548a24dcfc0feab16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e94d890e48ee7e5159972b0d219a43d') in 0.032120 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
