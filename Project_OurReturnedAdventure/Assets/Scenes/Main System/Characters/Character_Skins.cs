@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Character_Skins : MonoBehaviour
@@ -12,6 +10,7 @@ public class Character_Skins : MonoBehaviour
 
     [Header("아이템 반응")]
     public GameObject ITEM;
+    public int[,] ItemID;
     // Start is called before the first frame update
     void Start()
     {

@@ -13,7 +13,7 @@ public class Character_MovePC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-                speedX = Input.GetAxis("Vertical");
+        speedX = Input.GetAxis("Vertical");
         speedY = Input.GetAxis("Horizontal");
         Vect = new Vector2(speedX, speedY) * mobilemove.playerSpeed;
     }
