@@ -11,7 +11,7 @@ public class MobileJoystickUI : MonoBehaviour
     public Vector2 joystickVec;
     Vector2 joystickTouchPos;
     Vector2 joystickOriginalPos;
-    float joystickRadius;
+    public float joystickRadius;
     // Start is called before the first frame update
     void Start()
     {
