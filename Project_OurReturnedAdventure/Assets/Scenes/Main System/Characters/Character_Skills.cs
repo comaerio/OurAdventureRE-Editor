@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,20 +18,20 @@ public class Character_Skills : MonoBehaviour
         skills = new int[] { 0, 1,2,3,4,5,6 };//이곳에 스킬 번호 입력
         SkillSlots = new int[4] { 0, 0, 0, 0 }; // 0 = 미사용, 1~ = 스킬들 장착
     }
-    void Cooldown()
+    void Cooldown(int skillnum)
     {
-        foreach (int skillnum in skillcooldowns)
+        if (skillcooldowns[skillnum] > 0f)
         {
-            if (skillcooldowns[skillnum] > 0.02f)
-            {
-
-                skillcooldowns[skillnum] -= 0.02f;
-            }
-            else if (skillcooldowns[skillnum] > 0f)
-            {
-                skillcooldowns[skillnum] = 0f;
-            }
+            skillcooldowns[skillnum] -= 0.02f;
         }
+        else if (skillcooldowns[skillnum] < 0f)
+        {
+            skillcooldowns[skillnum] = 0f;
+        }
+    }
+    void SkillUse(int SkillID)
+    {
+
     }
     IEnumerator SkillUse()
     {
@@ -41,7 +40,8 @@ public class Character_Skills : MonoBehaviour
             if (SkillSlots[skills] != 0) { }
             else
             {
-
+                SkillUse(skills);
+                Cooldown(skills);
             }
         }
         yield return new WaitForFixedUpdate();
@@ -50,6 +50,5 @@ public class Character_Skills : MonoBehaviour
     void FixedUpdate()
     {
         StartCoroutine("SkillUse");
-        StartCoroutine("Cooldown");
     }
 }

@@ -20,11 +20,11 @@ public class MobileJoystickUI : MonoBehaviour
     }
     public void PointerDown()
     {
-        joystick.transform.position = JoystickBG.transform.position ;
+        joystick.transform.position = JoystickBG.transform.position;
         joystickTouchPos = joystickOriginalPos;
     }
 
-    public void Drag(BaseEventData baseEventData)
+    void Drag(BaseEventData baseEventData)
     {
         PointerEventData pointerEventData = baseEventData as PointerEventData;
         Vector2 dragPos = pointerEventData.position;
@@ -42,6 +42,5 @@ public class MobileJoystickUI : MonoBehaviour
     {
         joystickVec = Vector2.zero;
         joystick.transform.position = joystickOriginalPos;
-        JoystickBG.transform.position = joystickOriginalPos;
     }
 }

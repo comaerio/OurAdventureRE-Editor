@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class Character_MoveMobile : MonoBehaviour
 {
@@ -13,14 +10,17 @@ public class Character_MoveMobile : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
-    
-    private void FixedUpdate()
+    public void MobileMove()
     {
         if (Mobilejoygo.joystickVec.y != 0)
         {
             rb.velocity = new Vector2(Mobilejoygo.joystickVec.x * playerSpeed, Mobilejoygo.joystickVec.y * playerSpeed);
         }
         else rb.velocity = Vector2.zero;
+    }
+    
+    private void FixedUpdate()
+    {
+        MobileMove();
     }
 }

@@ -774,6 +774,7 @@ GameObject:
   - component: {fileID: 1023683957}
   - component: {fileID: 1023683959}
   - component: {fileID: 1023683960}
+  - component: {fileID: 1023683961}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -832,7 +833,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.24}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -938,6 +939,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1023683961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023683954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1717892663e8645a2fe04cdced05d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mobilemove: {fileID: 1023683959}
+  MobileJoygo: {fileID: 1150891110}
+  MobileUIPos: {fileID: 1542419371}
+  MobileJoystickPos: {fileID: 1052828402}
 --- !u!1 &1052828401
 GameObject:
   m_ObjectHideFlags: 0
