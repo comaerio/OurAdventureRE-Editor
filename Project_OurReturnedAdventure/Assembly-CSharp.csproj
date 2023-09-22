@@ -58,14 +58,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Main System\Characters\Character_MoveMobile.cs" />
     <Compile Include="Assets\Tutorial Infos\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_MoveMobile.cs" />
     <Compile Include="Assets\Scenes\Main System\Enemy_Codex.cs" />
-    <Compile Include="Assets\Scenes\Main System\Characters\MobileJoystickUI.cs" />
-    <Compile Include="Assets\Scenes\Main System\Characters\Character_Skills.cs" />
+    <Compile Include="Assets\Scenes\Main System\Characters\Scripts\MobileJoystickUI.cs" />
     <Compile Include="Assets\Scenes\UI_CornerMoveUI.cs" />
-    <Compile Include="Assets\Scenes\Main System\Characters\Character_MovePC.cs" />
-    <Compile Include="Assets\Scenes\Main System\Characters\Character_Skins.cs" />
+    <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_Skins.cs" />
+    <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_Skills.cs" />
+    <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_MovePC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\KenneyAssets\kenney_emotes-pack\Spritesheets\vector_style8.xml" />
