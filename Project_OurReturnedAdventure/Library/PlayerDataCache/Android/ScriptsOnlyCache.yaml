@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -134,39 +133,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 624}
+      Script: {instanceID: 628}
     - Class: 114
-      Script: {instanceID: 16652}
+      Script: {instanceID: 16656}
     - Class: 114
-      Script: {instanceID: 16684}
+      Script: {instanceID: 16688}
     - Class: 114
-      Script: {instanceID: 17938}
+      Script: {instanceID: 17942}
     - Class: 114
-      Script: {instanceID: 18136}
+      Script: {instanceID: 18140}
     - Class: 114
-      Script: {instanceID: 18420}
+      Script: {instanceID: 18424}
     - Class: 114
-      Script: {instanceID: 18834}
+      Script: {instanceID: 18840}
     - Class: 114
-      Script: {instanceID: 19740}
+      Script: {instanceID: 19746}
     - Class: 114
-      Script: {instanceID: 21150}
+      Script: {instanceID: 21156}
     - Class: 114
-      Script: {instanceID: 22192}
+      Script: {instanceID: 22198}
     - Class: 114
-      Script: {instanceID: 22622}
+      Script: {instanceID: 22628}
     - Class: 114
-      Script: {instanceID: 23902}
+      Script: {instanceID: 23908}
     - Class: 114
-      Script: {instanceID: 24114}
+      Script: {instanceID: 24120}
     - Class: 114
-      Script: {instanceID: 24426}
+      Script: {instanceID: 24432}
     - Class: 114
-      Script: {instanceID: 24880}
+      Script: {instanceID: 24886}
     - Class: 114
-      Script: {instanceID: 24918}
+      Script: {instanceID: 24924}
     - Class: 114
-      Script: {instanceID: 24956}
+      Script: {instanceID: 24962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,7 +213,7 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 244638ada91ce8b8453b143a5ecc9baa
+      Hash: 5b680bcc6e75d1cecc6601b210d5e8c5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Character_MovePC
@@ -482,6 +481,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 72ed19c14530597594f06091226711c9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemDB
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -874,7 +879,7 @@ ScriptsOnlyBuild:
     className: BufferManager
   - hash:
       serializedVersion: 2
-      Hash: 4fca8840a76bee587610e399c57bd930
+      Hash: afe4ccd6ba6ddc71384f035aae669f4b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MobileJoystickUI
@@ -1420,7 +1425,7 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
-      Hash: abbff3bb87c8c54864aa684444e22b03
+      Hash: d20fd35cbf9eeaef6b12a792ed43390c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Character_MoveMobile
@@ -1450,7 +1455,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 93bb1fbd36cc4ce08c0fdd30039426b4
+      Hash: 48c701b511fe79e6676c66a20571bd3a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Character_Skins
@@ -1601,4 +1606,5 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: "C:/Users/ohmar/OneDrive/\uBC14\uD0D5 \uD654\uBA74/Project_OurAdventureRE/Demo009_APK/OurAdventure_RE.apk"
+  playerPath: "C:/Users/ohmar/OneDrive/\uBC14\uD0D5 \uD654\uBA74/Project_OurAdventureRE/Demo
+    APKs/OurAdventure_RE.apk"
