@@ -406,6 +406,7 @@
 "Assets/Scenes/Main System/Characters/Scripts/Character_MovePC.cs"
 "Assets/Scenes/Main System/Characters/Scripts/Character_Skills.cs"
 "Assets/Scenes/Main System/Characters/Scripts/Character_Skins.cs"
+"Assets/Scenes/Main System/Characters/Scripts/ItemDB.cs"
 "Assets/Scenes/Main System/Characters/Scripts/MobileJoystickUI.cs"
 "Assets/Scenes/Main System/Enemy_Codex.cs"
 "Assets/Scenes/UI_CornerMoveUI.cs"

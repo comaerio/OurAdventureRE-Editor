@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class MobileJoystickUI : MonoBehaviour
 {
-    
+    public Character_MovePC PCcontrol;
     public GameObject joystick;
     public GameObject JoystickBG;
     public Vector2 joystickVec;
@@ -15,6 +15,10 @@ public class MobileJoystickUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (!PCcontrol.IsMobile)
+        {
+            Destroy(this);
+        }
         joystickOriginalPos = JoystickBG.transform.position;
         JoystickBG.transform.position = joystickOriginalPos;
         joystickRadius = JoystickBG.GetComponent<RectTransform>().sizeDelta.y / 8f;

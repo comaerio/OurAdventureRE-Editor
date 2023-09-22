@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scenes\Main System\Characters\Scripts\MobileJoystickUI.cs" />
     <Compile Include="Assets\Scenes\UI_CornerMoveUI.cs" />
     <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_Skins.cs" />
+    <Compile Include="Assets\Scenes\Main System\Characters\Scripts\ItemDB.cs" />
     <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_Skills.cs" />
     <Compile Include="Assets\Scenes\Main System\Characters\Scripts\Character_MovePC.cs" />
   </ItemGroup>

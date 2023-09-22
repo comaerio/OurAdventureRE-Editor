@@ -6,11 +6,7 @@ public class Character_Skins : MonoBehaviour
     public GameObject Skin;
     public SpriteRenderer Sprite;
     public string[] SkinData;
-    // = new string[,] { { "데모1", "데모2", "데모3" }, { "맢", "운", "꾸" }, { "메", "아", "유" }, { "커스텀", "", "" } }
-
-    [Header("아이템 반응")]
-    public GameObject ITEM;
-    public int[] ItemID;
+    // = new string[] { "데모1", "데모2", "데모3", "맢", "운", "꾸",  "메", "아", "유",  "커스텀", "", "" };
     // Start is called before the first frame update
     void Start()
     {
