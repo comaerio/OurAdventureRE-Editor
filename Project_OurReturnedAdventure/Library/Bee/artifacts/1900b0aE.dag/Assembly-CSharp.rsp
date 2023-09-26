@@ -408,6 +408,10 @@
 "Assets/Scenes/Main System/Characters/Scripts/Character_Skins.cs"
 "Assets/Scenes/Main System/Characters/Scripts/ItemDB.cs"
 "Assets/Scenes/Main System/Characters/Scripts/MobileJoystickUI.cs"
+<<<<<<< HEAD
+=======
+"Assets/Scenes/Main System/Characters/Scripts/SkillDB.cs"
+>>>>>>> parent of 06b24cd83 (Merge branch 'main' of https://github.com/comaerio/OurAdventureRE-Editor)
 "Assets/Scenes/Main System/Enemy_Codex.cs"
 "Assets/Scenes/UI_CornerMoveUI.cs"
 "Assets/Tutorial Infos/TutorialInfo/Scripts/Readme.cs"
